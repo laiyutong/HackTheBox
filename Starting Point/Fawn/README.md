@@ -33,6 +33,7 @@ A：<code>vsftpd 3.0.3</code>
 <h3>TASK 6</h3>
 Q：From your scans, what OS type is running on the target?<br>
 A：<code>Unix</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/nmap.png" alt="nmap" width="60%">
 
 <h3>TASK 7</h3>
 Q：What is the command we need to run in order to display the 'ftp' client help menu?<br>
@@ -45,11 +46,13 @@ A：<code>anonymous</code>
 <h3>TASK 9</h3>
 Q：What is the response code we get for the FTP message 'Login successful'?<br>
 A：<code>230</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/FTP.png" alt="FTP" width="40%">
 
 <h3>TASK 10</h3>
 Q：There are a couple of commands we can use to list the files and directories available on the FTP server.<br>
 One is dir. What is the other that is a common way to list files on a Linux system.<br>
 A：<code>ls</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/ls.png" alt="ls" width="60%">
 
 <h3>TASK 11</h3>
 Q：What is the command used to download the file we found on the FTP server?<br>
