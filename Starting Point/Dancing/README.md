@@ -45,5 +45,7 @@ Trying to connect each share and it can be noticed only WorkShares is connected 
 command：<code>smbclient //&lt;hostname&gt;/&lt;sharename&gt; -U &lt;username&gt;</code><br>
 (<a href="https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/s1-samba-connect-share.html">Connecting to a Samba Share</a>)
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/connect.png" alt="connect" width="60%">
+<code>flag.txt</code> is found in <code>James.P</code> directory.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/ls.png" alt="ls" width="60%">
+Now use <code>get</code> command to download the flag.txt file and you can get the flag！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/get.png" alt="get" width="60%">
