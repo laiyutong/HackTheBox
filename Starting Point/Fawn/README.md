@@ -57,5 +57,6 @@ A：<code>ls</code>
 <h3>TASK 11</h3>
 Q：What is the command used to download the file we found on the FTP server?<br>
 A：<code>get</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/get.png" alt="get" width="60%">
 
 <h2>SUBMIT FLAG</h2>
