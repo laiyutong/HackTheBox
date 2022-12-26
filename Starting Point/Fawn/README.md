@@ -43,7 +43,8 @@ A：<code>ftp -h</code>
 
 <h3>TASK 8</h3>
 Q：What is username that is used over FTP when you want to log in without having an account?<br>
-A：<code>anonymous</code>
+A：<code>anonymous</code><br>
+<a href="https://www.geeksforgeeks.org/what-is-anonymous-ftp-file-transfer-protocol/">Anonymous FTP</a>
 
 <h3>TASK 9</h3>
 Q：What is the response code we get for the FTP message 'Login successful'?<br>
