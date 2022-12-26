@@ -46,17 +46,24 @@ A：<code>anonymous</code>
 <h3>TASK 9</h3>
 Q：What is the response code we get for the FTP message 'Login successful'?<br>
 A：<code>230</code>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/FTP.png" alt="FTP" width="40%">
 
 <h3>TASK 10</h3>
 Q：There are a couple of commands we can use to list the files and directories available on the FTP server.<br>
 One is dir. What is the other that is a common way to list files on a Linux system.<br>
 A：<code>ls</code>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/ls.png" alt="ls" width="60%">
 
 <h3>TASK 11</h3>
 Q：What is the command used to download the file we found on the FTP server?<br>
 A：<code>get</code>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/get.png" alt="get" width="60%">
 
 <h2>SUBMIT FLAG</h2>
+Using name：<code>anonymous</code> and password：<code>NULL</code> to login.
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/FTP.png" alt="FTP" width="40%">
+You can try <code>ls</code> to see if anything exists.
+Apparently, there exists a <code>flag.txt</code> as shown below,<br>
+we need to do is find a way to get the content of the flag.txt.
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/ls.png" alt="ls" width="60%">
+You can use <code>help</code> to check what command can be used.
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/help.png" alt="help" width="60%">
+Ultimately, you can get the flag by using <code>get</code> command！
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/get.png" alt="get" width="60%">
