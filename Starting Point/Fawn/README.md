@@ -1,7 +1,10 @@
 <h1>Fawn</h1>
 
 <h2>CONNECT</h2>
-Connect to Starting Point VPN before starting the machine
+Connect to Starting Point VPN before starting the machine<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/download.png" alt="download" width="30%">
+Using <code>openvpn</code> to operate the file of <code>download vpn</code> in kali.
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/openvpn.png" alt="openvpn" width="60%">
 
 <h2>TASK</h2>
 
