@@ -9,7 +9,8 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 
 <h3>TASK 1</h3>
 Q：What does the 3-letter acronym SMB stand for?<br>
-A：<code>Server Message Block</code>
+A：<code>Server Message Block</code><br>
+<a href="https://nordvpn.com/zh-tw/blog/what-is-smb/">What is the SMB protocol?</a>
 
 <h3>TASK 2</h3>
 Q：What port does SMB use to operate at?<br>
