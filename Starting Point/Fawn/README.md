@@ -20,10 +20,12 @@ A：<code>21</code>
 <h3>TASK 3</h3>
 Q：What acronym is used for the secure version of FTP?<br>
 A：<code>SFTP</code>
+<a href="https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol">SSH File Transfer Protocol</a>
 
 <h3>TASK 4</h3>
 Q：What is the command we can use to send an ICMP echo request to test our connection to the target?<br>
-A：<code>ping</code>
+A：<code>ping</code><br>
+<a href="Ping – Manually create and send ICMP/IP packets">Ping - Manually create and send ICMP/IP packets</a>
 
 <h3>TASK 5</h3>
 Q：From your scans, what version is FTP running on the target?<br>
