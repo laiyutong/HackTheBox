@@ -41,13 +41,3 @@ A：<code>get</code>
 
 
 <h2>SUBMIT FLAG</h2>
-Using name：<code>anonymous</code> and password：<code>NULL</code> to login.
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/FTP.png" alt="FTP" width="40%">
-You can try <code>ls</code> to see if anything exists.
-Apparently, there exists a <code>flag.txt</code> as shown below,<br>
-we need to do is find a way to get the content of the flag.txt.
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/ls.png" alt="ls" width="60%">
-You can use <code>help</code> to check what command can be used.
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/help.png" alt="help" width="60%">
-Ultimately, you can get the flag by using <code>get</code> command！
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/get.png" alt="get" width="60%">
