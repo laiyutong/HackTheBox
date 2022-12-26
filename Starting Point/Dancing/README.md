@@ -14,7 +14,6 @@ A：<code>Server Message Block</code>
 <h3>TASK 2</h3>
 Q：What port does SMB use to operate at?<br>
 A：<code>445</code><br>
-<img src="https://i.imgur.com/ODy4l1R.png" alt="port" width="60%">
 
 <h3>TASK 3</h3>
 Q：What is the service name for port 445 that came up in our Nmap scan?<br>
