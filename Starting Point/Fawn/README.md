@@ -7,7 +7,7 @@ Connect to Starting Point VPN before starting the machine
 
 <h3>TASK 1</h3>
 Q：What does the 3-letter acronym FTP stand for?<br>
-A：<code>File transfer protocol</code>
+A：<code>File Transfer Protocol</code>
 
 <h3>TASK 2</h3>
 Q：Which port does the FTP service listen on usually?<br>
