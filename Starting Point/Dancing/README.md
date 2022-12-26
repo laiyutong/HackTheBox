@@ -19,22 +19,21 @@ A：<code>445</code><br>
 <h3>TASK 3</h3>
 Q：What is the service name for port 445 that came up in our Nmap scan?<br>
 A：<code>microsoft-ds</code><br>
-<a href="https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol">SSH File Transfer Protocol</a>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/nmap.png" alt="nmap" width="60%">
 
 <h3>TASK 4</h3>
 Q：What is the 'flag' or 'switch' we can use with the SMB tool to 'list' the contents of the share?<br>
 A：<code>-l</code><br>
-<a href="Ping – Manually create and send ICMP/IP packets">Ping - Manually create and send ICMP/IP packets</a>
 
 <h3>TASK 5</h3>
 Q：How many shares are there on Dancing?<br>
 A：<code>4</code>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/nmap.png" alt="nmap" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/smbclient.png" alt="smbclient" width="60%">
 
 <h3>TASK 6</h3>
 Q：What is the name of the share we are able to access in the end with a blank password?<br>
 A：<code>Workshares</code>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/nmap.png" alt="nmap" width="60%">
+
 
 <h3>TASK 7</h3>
 Q：What is the command we can use within the SMB shell to download the files we find?<br>
