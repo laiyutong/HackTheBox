@@ -14,12 +14,12 @@ A：<code>File Transfer Protocol</code>
 
 <h3>TASK 2</h3>
 Q：Which port does the FTP service listen on usually?<br>
-A：<code>21</code>
+A：<code>21</code><br>
 <img src="https://i.imgur.com/ODy4l1R.png" alt="port" width="60%">
 
 <h3>TASK 3</h3>
 Q：What acronym is used for the secure version of FTP?<br>
-A：<code>SFTP</code>
+A：<code>SFTP</code><br>
 <a href="https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol">SSH File Transfer Protocol</a>
 
 <h3>TASK 4</h3>
