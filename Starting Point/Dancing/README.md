@@ -41,3 +41,5 @@ A：<code>get</code>
 
 
 <h2>SUBMIT FLAG</h2>
+<a href="https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/s1-samba-connect-share.html">Connecting to a Samba Share</a><br>
+<code>smbclient //&lt;hostname&gt;/&lt;sharename&gt; -U &lt;username&gt;</code>
