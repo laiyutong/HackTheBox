@@ -41,8 +41,9 @@ A：<code>get</code>
 
 
 <h2>SUBMIT FLAG</h2>
-<a href="https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/s1-samba-connect-share.html">Connecting to a Samba Share</a><br>
-<code>smbclient //&lt;hostname&gt;/&lt;sharename&gt; -U &lt;username&gt;</code>
+Trying to connect each share and it can be noticed only WorkShares is connected without providing any password.<br>
+command：<code>smbclient //&lt;hostname&gt;/&lt;sharename&gt; -U &lt;username&gt;</code>
+(<a href="https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/s1-samba-connect-share.html">Connecting to a Samba Share</a><br>)
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/connect.png" alt="connect" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/ls.png" alt="ls" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/get.png" alt="get" width="60%">
