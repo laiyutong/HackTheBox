@@ -28,6 +28,7 @@ A：<code>ping</code>
 <h3>TASK 5</h3>
 Q：From your scans, what version is FTP running on the target?<br>
 A：<code>vsftpd 3.0.3</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/nmap.png" alt="nmap" width="60%">
 
 <h3>TASK 6</h3>
 Q：From your scans, what OS type is running on the target?<br>
