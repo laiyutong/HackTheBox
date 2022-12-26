@@ -23,7 +23,7 @@ A：<code>microsoft-ds</code><br>
 
 <h3>TASK 4</h3>
 Q：What is the 'flag' or 'switch' we can use with the SMB tool to 'list' the contents of the share?<br>
-A：<code>-l</code><br>
+A：<code>-L</code><br>
 
 <h3>TASK 5</h3>
 Q：How many shares are there on Dancing?<br>
