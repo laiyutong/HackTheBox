@@ -48,7 +48,8 @@ A：<code>anonymous</code><br>
 
 <h3>TASK 9</h3>
 Q：What is the response code we get for the FTP message 'Login successful'?<br>
-A：<code>230</code>
+A：<code>230</code><br>
+<a href="https://en.wikipedia.org/wiki/List_of_FTP_server_return_codes">List of FTP server return codes</a>
 
 <h3>TASK 10</h3>
 Q：There are a couple of commands we can use to list the files and directories available on the FTP server.<br>
