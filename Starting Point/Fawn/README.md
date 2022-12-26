@@ -15,6 +15,7 @@ A：<code>File Transfer Protocol</code>
 <h3>TASK 2</h3>
 Q：Which port does the FTP service listen on usually?<br>
 A：<code>21</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/port.png" alt="port" width="60%">
 
 <h3>TASK 3</h3>
 Q：What acronym is used for the secure version of FTP?<br>
