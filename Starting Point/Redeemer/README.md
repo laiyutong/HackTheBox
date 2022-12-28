@@ -21,6 +21,8 @@ A：<code>redis</code><br>
 Q：What type of database is Redis?<br>
 Choose from the following options:(i) In-memory Database, (ii) Traditional Database<br>
 A：<code>In-memory Database</code><br>
+<a href="https://redis.io/">Redis</a>, the open source,<br>
+in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker.
 
 <h3>TASK 4</h3>
 Q：Which command-line utility is used to interact with the Redis server?<br> 
