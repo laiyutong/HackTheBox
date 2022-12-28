@@ -10,7 +10,7 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 <h3>TASK 1</h3>
 Q：Which TCP port is open on the machine?<br>
 A：<code>6379</code><br>
-<a href="https://nordvpn.com/zh-tw/blog/what-is-smb/">What is the SMB protocol?</a>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Redeemer/Redeemer/nmaptcp.png" alt="nmaptcp" width="60%">
 
 <h3>TASK 2</h3>
 Q：Which service is running on the port that is open on the machine?<br>
@@ -38,6 +38,7 @@ A：<code>info</code>
 <h3>TASK 7</h3>
 Q：What is the version of the Redis server being used on the target machine?<br>
 A：<code>5.0.7</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Redeemer/Redeemer/redisinfo.png" alt="connect" width="60%">
 
 <h3>TASK 8</h3>
 Q：Which command is used to select the desired database in Redis?<br>
@@ -52,11 +53,5 @@ Q：Which command is used to obtain all the keys in a database?<br>
 A：<code>keys *</code>
 
 <h2>SUBMIT FLAG</h2>
-Trying to connect each share and it can be noticed only WorkShares is connected without providing any password.<br>
-command：<code>smbclient //&lt;hostname&gt;/&lt;sharename&gt; -U &lt;username&gt;</code><br>
-(<a href="https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/s1-samba-connect-share.html">Connecting to a Samba Share</a>)
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/connect.png" alt="connect" width="60%">
-<code>flag.txt</code> is found in <code>James.P</code> directory.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/ls.png" alt="ls" width="60%">
-Now use <code>get</code> command to download the flag.txt file and you can get the flag！<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Dancing/Dancing/get.png" alt="get" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Redeemer/Redeemer/flag.png" alt="flag" width="60%">
