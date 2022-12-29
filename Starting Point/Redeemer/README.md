@@ -11,9 +11,11 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 Q：Which TCP port is open on the machine?<br>
 A：<code>6379</code><br>
 <code>nmap -p- -A <IP> --min-rate 5000</code><br>
+<pre class="text">
 Parameter Description
 -p-: All port
 -A: Enable OS detection, version detection, script scanning, and traceroute.
+</pre>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Redeemer/Redeemer/nmaptcp.png" alt="nmaptcp" width="70%">
 
 <h3>TASK 2</h3>
