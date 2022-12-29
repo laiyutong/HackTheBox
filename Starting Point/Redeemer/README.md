@@ -10,7 +10,7 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 <h3>TASK 1</h3>
 Q：Which TCP port is open on the machine?<br>
 A：<code>6379</code><br>
-<code>nmap -p- -A <IP> --min-rate 5000</code><br>
+<code>nmap -p- -A <IP> --min-rate 5000</code><br><br>
 <pre class="text">
 Parameter Description
 -p-: All port
