@@ -36,4 +36,12 @@ Q：What symbol do we need to end each query with?<br>
 A：<code>；</code>
 
 <h2>SUBMIT FLAG</h2>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/nmap.png" alt="nmap" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/mysqllogin.png" alt="mysqllogin" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/readtable.png" alt="readtable" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/showdb.png" alt="showdb" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/showtables.png" alt="showtables" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/showuser.png" alt="showuser" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/showversion.png" alt="showversion" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/usedb.png" alt="usedb" width="60%">
 
