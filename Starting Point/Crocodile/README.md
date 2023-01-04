@@ -1,4 +1,4 @@
-<h1>Appointment</h1>
+<h1>Crocodile</h1>
 
 <h2>CONNECT</h2>
 Connect to Starting Point VPN before starting the machine<br>
