@@ -13,7 +13,7 @@ A：<code>unika.htb</code><br>
 
 <h3>TASK 2</h3>
 Q：Which scripting language is being used on the server to generate webpages?<br>
-A：<code>SQL Injection</code><br>
+A：<code>php</code><br>
 
 <h3>TASK 3</h3>
 Q：What is the name of the URL parameter which is used to load different language versions of the webpage?
