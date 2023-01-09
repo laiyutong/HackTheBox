@@ -46,8 +46,7 @@ A：<code>wappalyzer</code>
 Q：What switch can we use with gobuster to specify we are looking for specific file types?<br>
 A：<code>-x</code>
 Using <code>gobuster dir -h</code> to get more info about command.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/filetype.png
-" alt="filetype" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/filetype.png" alt="filetype" width="60%">
 
 <h3>TASK 9</h3>
 Q：What file have we found that can provide us a foothold on the target?<br>
