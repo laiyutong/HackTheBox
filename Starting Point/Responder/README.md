@@ -47,11 +47,11 @@ A：<code>//10.10.14.6/somefile</code>
 
 <h3>TASK 6</h3>
 Q：What does NTLM stand for?<br>
-A：<code>443</code>
+A：<code>New Technology LAN Manager</code>
 
 <h3>TASK 7</h3>
 Q：Which flag do we use in the Responder utility to specify the network interface?<br>
-A：<code>brute-forcing</code>
+A：<code>-I</code>
 
 <h3>TASK 8</h3>
 Q：There are several tools that take a NetNTLMv2 challenge/response and try millions of passwords to see if any of them generate the same response. One such tool is often referred to as `john`, but the full name is what?<br>
