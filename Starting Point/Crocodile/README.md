@@ -49,6 +49,7 @@ A：<code>-x</code>
 <h3>TASK 9</h3>
 Q：What file have we found that can provide us a foothold on the target?<br>
 A：<code>login.php</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/dirsearch.png" alt="dirsearch" width="60%">
 
 <h2>SUBMIT FLAG</h2>
 Use <code>ftp</code> to connect to the ip of the target machine,<br> 
