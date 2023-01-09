@@ -15,7 +15,7 @@ It is worth noting that we <code>can not connect</code> to the server at unika.h
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/unikia.htb.png" alt="unikia.htb" width="60%">
 To fix the problem, we need to add <code>target ip</code> and <code>domain name</code> in the <a href="https://man7.org/linux/man-pages/man5/hosts.5.html">/etc/hosts</a>.
 
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/hosts.png" alt="hosts" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/hosts.png" alt="hosts" width="40%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/unikapage.png" alt="unikapage" width="60%">
 
 <h3>TASK 2</h3>
