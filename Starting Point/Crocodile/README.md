@@ -21,6 +21,9 @@ A：<code>vsftpd 3.0.3</code><br>
 Q：What FTP code is returned to us for the "Anonymous FTP login allowed" message?<br>
 A：<code>230</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/statuscode.png" alt="statuscode" width="60%">
+By the way, <a href="https://nmap.org/nsedoc/scripts/">NSE Scripts</a> is useful to find out how to use or what parameters are available.<br>
+<code>ftp-anon</code> mentioned in the picture, can also be found in <a href="https://nmap.org/nsedoc/scripts/">NSE Scripts</a>.<br>
+<code>ftp-anon：Checks if an FTP server allows anonymous logins.</code>
 
 <h3>TASK 4</h3>
 Q：What command can we use to download the files we find on the FTP server?<br>
