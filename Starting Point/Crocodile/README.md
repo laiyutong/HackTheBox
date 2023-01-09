@@ -43,7 +43,7 @@ Q：What is the name of a handy web site analysis plug-in we can install in our 
 A：<code>wappalyzer</code>
 
 <h3>TASK 8</h3>
-Q：What switch can we use with gobuster to specify we are looking for specific filetypes?<br>
+Q：What switch can we use with gobuster to specify we are looking for specific file types?<br>
 A：<code>-x</code>
 
 <h3>TASK 9</h3>
