@@ -53,19 +53,19 @@ you can see that there are two files: <code>allowed.userlist</code> and <code>al
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/getflag1.png" alt="getflag1" width="60%">
 
 After downloading two files with <code>get</code> command,<br> 
-open them with <code>cat</code>, and you can see four groups of account numbers and passwords.
+open them with <code>cat</code>, and you can see four groups of account numbers and passwords.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/cat.png" alt="cat" width="30%">
 
 Open the website and enter the IP of the target machine,<br> 
-the screen is shown as below, it seems that there is no place to log in.
+the screen is shown as below, it seems that there is no place to log in.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/web.png" alt="web" width="60%">
 
 You can use <code>dirsearch</code> or <code>gobuster</code> to blast directories and files of the webpage,<br>
-and you can find <code>/login.php</code>.
+and you can find <code>/login.php</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/dirsearch.png" alt="dirsearch" width="60%">
 
 Add /login.php after the webpage ip to get the login page.<br>
-Since the highest authority is <code>admin</code>, fill in admin and the password.
+Since the highest authority is <code>admin</code>, fill in admin and the password.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/loginphp.png" alt="loginphp" width="60%">
 
 After successful login, you can get the flag!<br>
