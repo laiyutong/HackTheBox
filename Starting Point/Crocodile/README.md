@@ -64,7 +64,7 @@ You can use <code>dirsearch</code> or <code>gobuster</code> to blast directories
 and you can find <code>/login.php</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/dirsearch.png" alt="dirsearch" width="60%">
 
-Add /login.php after the webpage ip to get the login page.<br>
+Add <code>/login.php</code> after the webpage ip to get the login page.<br>
 Since the highest authority is <code>admin</code>, fill in admin and the password.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/loginphp.png" alt="loginphp" width="60%">
 
