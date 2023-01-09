@@ -44,7 +44,7 @@ A：<code>wappalyzer</code>
 
 <h3>TASK 8</h3>
 Q：What switch can we use with gobuster to specify we are looking for specific file types?<br>
-A：<code>-x</code>
+A：<code>-x</code><br>
 Using <code>gobuster dir -h</code> to get more info about command.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/filetype.png" alt="filetype" width="60%">
 
