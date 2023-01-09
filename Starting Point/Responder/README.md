@@ -30,12 +30,20 @@ Q：What is the name of the URL parameter which is used to load different langua
 A：<code>page</code><br>
 
 <h3>TASK 4</h3>
-Q：Which of the following values for the `page` parameter would be an example of exploiting a Local File Include (LFI) vulnerability: "french.html", "//10.10.14.6/somefile", "../../../../../../../../windows/system32/drivers/etc/hosts", "minikatz.exe"<br>
-A：<code>A03:2021-Injection</code><br>
+Q：Which of the following values for the `page` parameter would be an example of exploiting a Local File Include (LFI) vulnerability:<br>
+"french.html",<br>
+"//10.10.14.6/somefile",<br>
+"../../../../../../../../windows/system32/drivers/etc/hosts",<br>
+"minikatz.exe"<br>
+A：<code>../../../../../../../../windows/system32/drivers/etc/hosts</code><br>
 
 <h3>TASK 5</h3>
-Q：Which of the following values for the `page` parameter would be an example of exploiting a Remote File Include (RFI) vulnerability: "french.html", "//10.10.14.6/somefile", "../../../../../../../../windows/system32/drivers/etc/hosts", "minikatz.exe"<br>
-A：<code>Apache httpd 2.4.38 ((Debian))</code>
+Q：Which of the following values for the `page` parameter would be an example of exploiting a Remote File Include (RFI) vulnerability:<br>
+"french.html",<br> 
+"//10.10.14.6/somefile",<br>
+"../../../../../../../../windows/system32/drivers/etc/hosts",<br>
+"minikatz.exe"<br>
+A：<code>//10.10.14.6/somefile</code>
 
 <h3>TASK 6</h3>
 Q：What does NTLM stand for?<br>
