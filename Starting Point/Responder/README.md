@@ -13,7 +13,7 @@ A：<code>unika.htb</code><br><br>
 Enter <code>Target IP</code> on the webpage, you can find that the web site is automatically directed to <code>unika.htb</code>.<br>
 It is worth noting that we <code>can not connect</code> to the server at unika.htb.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/unikia.htb.png" alt="unikia.htb" width="60%">
-To fix the problem, we need to add <code>target ip</code> and <code>domain name</code> in the <a href="https://man7.org/linux/man-pages/man5/hosts.5.html">/etc/hosts</a>.
+To fix the problem, we need to add <code>target ip</code> and <code>domain name</code> in the <a href="https://man7.org/linux/man-pages/man5/hosts.5.html">/etc/hosts</a> as shown below.
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/hosts.png" alt="hosts" width="40%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/unikapage.png" alt="unikapage" width="60%">
