@@ -76,9 +76,14 @@ Copy the <code>Responder IP</code> in Generic Options, paste it <code>behind</co
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/resdetail.png" alt="resdetail" width="60%">
 (Here I have entered the same <code>/somefile</code> at the end of URL as TASK 5)<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/RFI.png" alt="RFI" width="60%">
-After exploiting a <code>RFI</code> (Remote File Include) vulnerability, we can  <code>responder</code> get a <code>NTLMv2-SSP Hash</code>
+After exploiting a <code>RFI</code> vulnerability, we can <code>responder</code> get a <code>NTLMv2-SSP Hash</code>.
+In order to bruce force <code>NTLMv2-SSP Hash</code>, save the hash value to the .txt file.<br>
+(Here I save the hash value as hash.txt)<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/hashvalue.png" alt="hashvalue" width="60%">
-
+<code>Rockyou.txt</code> is a common password list that we need to know first.
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/wordlist.png" alt="wordlist" width="60%">
+We can get the <code>password</code> of administrator by using <code>john --wordlist=/usr/share/wordlists/rockyou.txy hash.txt</code> command.
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/john.png" alt="john" width="60%">
 <h3>TASK 10</h3>
 Q：We'll use a Windows service (i.e. running on the box) to remotely access the Responder machine using the password we recovered. What port TCP does it listen on?<br>
 A：<code>5985</code>
