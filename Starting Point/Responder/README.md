@@ -64,7 +64,7 @@ A：<code>badminton</code>
 
 <h3>TASK 10</h3>
 Q：We'll use a Windows service (i.e. running on the box) to remotely access the Responder machine using the password we recovered. What port TCP does it listen on?<br>
-A：<code>dir</code>
+A：<code>5985</code>
 
 
 <h2>SUBMIT FLAG</h2>
