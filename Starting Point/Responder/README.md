@@ -114,7 +114,10 @@ Usage: evil-winrm -i IP -u USER [-s SCRIPTS_PATH] [-e EXES_PATH] [-P PORT] [-p P
 </pre>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evilwinrm_login.png" alt="evilwinrm_login" width="60%">
-<img src="https://i.imgur.com/mMOVhsy.png" alt="evil1" width="60%">
+To gain PS in our attacking systemUse, we can use <code>evil-winrm -i [Target IP] -u Administrator -p [Administrator password]</code> command.
+Use <code>dir</code> to list directories in the current <code>Users\Administrator\Documents</code>.
+If there is nothing, you can go back to the <code>upper layer</code> to continue viewing, and so on.
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evil1.png" alt="evil1" width="60%">
+Navigate to mike’s Desktop and you will find flag！
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evil2.png" alt="evil2" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/john.png" alt="john" width="60%">
 
