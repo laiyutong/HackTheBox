@@ -69,7 +69,15 @@ A：<code>john the ripper</code><br><br>
 
 <h3>TASK 9</h3>
 Q：What is the password for the administrator user?<br>
-A：<code>badminton</code>
+A：<code>badminton</code><br><br>
+Since we do not know the password of administrator, we need to use <code>responder</code> command to get the <code>hash value</code> and then brute force it.
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/tun0.png" alt="tun0" width="60%">
+Copy the <code>Responder IP</code> in Generic Options, paste it <code>behind</code> the <code>page parameter</code>, and you can freely enter text behind the Responder IP.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/resdetail.png" alt="resdetail" width="60%">
+(Here I have entered the same <code>/somefile</code> at the end of URL as TASK 5)<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/RFI.png" alt="RFI" width="60%">
+After exploiting a <code>RFI</code> (Remote File Include) vulnerability, we can  <code>responder</code> get a <code>NTLMv2-SSP Hash</code>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/hashvalue.png" alt="hashvalue" width="60%">
 
 <h3>TASK 10</h3>
 Q：We'll use a Windows service (i.e. running on the box) to remotely access the Responder machine using the password we recovered. What port TCP does it listen on?<br>
