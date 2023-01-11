@@ -111,7 +111,8 @@ Usage: evil-winrm -i IP -u USER [-s SCRIPTS_PATH] [-e EXES_PATH] [-P PORT] [-p P
     -N, --no-rpath-completion        Disable remote path completion
     -l, --log                        Log the WinRM session
     -h, --help                       Display this help message
-</p>
+</pre>
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evilwinrm_login.png" alt="evilwinrm_login" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evil1.png" alt="evil1" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evil2.png" alt="evil2" width="60%">
