@@ -30,14 +30,26 @@ vhost                     Uses VHOST enumeration mode
 -w, --wordlist string     Path to the wordlist
 </pre>
 
-<h3>TASK 5</h3>
-Q：Which service is running on the discovered sub-domain?<br>
-A：<code>admin</code><br><br>
-
 <b>Note</b>: <br>
 If using Gobuster version <code>3.2.0 and above</code> we also have to add the <code>--append-domain</code> flag to our
 command so that the enumeration takes into account the known vHost ( thetoppers.htb ) and appends it
 to the words found in the wordlist ( word.thetoppers.htb ).
+
+<h3>TASK 5</h3>
+Q：Which service is running on the discovered sub-domain?<br>
+A：<code>admin</code><br><br>
+
+<pre text="class">
+Install awscli on Linux：
+    apt-get update
+    apt-get install awscli
+</pre>
+
+First, we need to configure awscli using the following command.<br>
+<code>aws configure</code><br>
+
+list all of the S3 buckets hosted by the server by using the ls command.<br>
+<code>aws --endpoint=http://s3.thetoppers.htb s3 ls</code><br>
 
 <h3>TASK 6</h3>
 Q：Which command line utility can be used to interact with the service running on the discovered sub-domain?<br>
