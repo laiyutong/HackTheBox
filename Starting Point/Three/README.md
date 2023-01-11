@@ -32,12 +32,16 @@ vhost                     Uses VHOST enumeration mode
 
 <h3>TASK 5</h3>
 Q：Which service is running on the discovered sub-domain?<br>
-A：<code>admin</code>
+A：<code>admin</code><br><br>
+
+<b>Note</b>: <br>
+If using Gobuster version <code>3.2.0 and above</code> we also have to add the <code>--append-domain</code> flag to our
+command so that the enumeration takes into account the known vHost ( thetoppers.htb ) and appends it
+to the words found in the wordlist ( word.thetoppers.htb ).
 
 <h3>TASK 6</h3>
 Q：Which command line utility can be used to interact with the service running on the discovered sub-domain?<br>
 A：<code>2.4.41</code>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/apache.png" alt="apache" width="60%">
 
 <h3>TASK 7</h3>
 Q：Which command is used to set up the AWS CLI installation?<br>
@@ -46,8 +50,6 @@ A：<code>wappalyzer</code>
 <h3>TASK 8</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
 A：<code>-x</code><br>
-Using <code>gobuster dir -h</code> to get more info about command.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/filetype.png" alt="filetype" width="60%">
 
 <h3>TASK 9</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
