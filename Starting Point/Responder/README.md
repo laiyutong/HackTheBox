@@ -59,6 +59,7 @@ A：<code>New Technology LAN Manager</code>
 <h3>TASK 7</h3>
 Q：Which flag do we use in the Responder utility to specify the network interface?<br>
 A：<code>-I</code><br><br>
+Use <code>responder -h</code> to see the option.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/responder.png" alt="responder" width="60%">
 
 <h3>TASK 8</h3>
