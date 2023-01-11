@@ -9,21 +9,21 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 
 <h3>TASK 1</h3>
 Q：How many TCP ports are open?<br>
-A：<code>-sC</code><br>
+A：<code>2</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/-sC.png" alt="-sC" width="60%">
 
 <h3>TASK 2</h3>
 Q：What is the domain of the email address provided in the "Contact" section of the website?<br>
-A：<code>vsftpd 3.0.3</code><br>
+A：<code>thetoppers.htb</code><br>
 
 
 <h3>TASK 3</h3>
 Q：In the absence of a DNS server, which Linux file can we use to resolve hostnames to IP addresses in order to be able to access the websites that point to those hostnames?<br>
-A：<code>230</code><br>
+A：<code>/etc/hosts</code><br>
 
 <h3>TASK 4</h3>
 Q：Which sub-domain is discovered during further enumeration?<br>
-A：<code>get</code><br><br>
+A：<code>s3.thetoppers.htb</code><br><br>
 <pre text="class">
 vhost                     Uses VHOST enumeration mode 
 -u, --url string          The target URL
