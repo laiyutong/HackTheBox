@@ -55,7 +55,8 @@ A：<code>-I</code>
 
 <h3>TASK 8</h3>
 Q：There are several tools that take a NetNTLMv2 challenge/response and try millions of passwords to see if any of them generate the same response. One such tool is often referred to as `john`, but the full name is what?<br>
-A：<code>john the ripper</code>
+A：<code>john the ripper</code><br>
+<a href="https://www.itperfection.com/computer-network-concepts/what-is-john-the-ripper-and-how-does-it-work-password-checker-brute-force-dictionary-attack/">What is John the Ripper and How Does it Work?</a>
 
 <h3>TASK 9</h3>
 Q：What is the password for the administrator user?<br>
