@@ -114,7 +114,7 @@ Usage: evil-winrm -i IP -u USER [-s SCRIPTS_PATH] [-e EXES_PATH] [-P PORT] [-p P
 </pre>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evilwinrm_login.png" alt="evilwinrm_login" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evil1.png" alt="evil1" width="60%">
+<img src="https://i.imgur.com/mMOVhsy.png" alt="evil1" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/evil2.png" alt="evil2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/john.png" alt="john" width="60%">
 
