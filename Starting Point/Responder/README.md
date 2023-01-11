@@ -27,7 +27,13 @@ A：<code>php</code><br>
 <h3>TASK 3</h3>
 Q：What is the name of the URL parameter which is used to load different language versions of the webpage?
 <br>
-A：<code>page</code><br>
+A：<code>page</code><br><br>
+
+Click <code>EN</code> in the upper right corner of the screen to switch languages.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/language.png" alt="language" width="60%">
+
+After switching to <code>FR</code> (French), you can find that there is an additional parameter <code>page=french.html</code> in the URL.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/language2.png" alt="language2" width="60%">
 
 <h3>TASK 4</h3>
 Q：Which of the following values for the `page` parameter would be an example of exploiting a Local File Include (LFI) vulnerability:<br>
@@ -35,7 +41,8 @@ Q：Which of the following values for the `page` parameter would be an example o
 "//10.10.14.6/somefile",<br>
 "../../../../../../../../windows/system32/drivers/etc/hosts",<br>
 "minikatz.exe"<br>
-A：<code>../../../../../../../../windows/system32/drivers/etc/hosts</code><br>
+A：<code>../../../../../../../../windows/system32/drivers/etc/hosts</code><br><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/LFI.png" alt="LFI" width="60%">
 
 <h3>TASK 5</h3>
 Q：Which of the following values for the `page` parameter would be an example of exploiting a Remote File Include (RFI) vulnerability:<br>
@@ -51,11 +58,12 @@ A：<code>New Technology LAN Manager</code>
 
 <h3>TASK 7</h3>
 Q：Which flag do we use in the Responder utility to specify the network interface?<br>
-A：<code>-I</code>
+A：<code>-I</code><br><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Responder/Responder/responder.png" alt="responder" width="60%">
 
 <h3>TASK 8</h3>
 Q：There are several tools that take a NetNTLMv2 challenge/response and try millions of passwords to see if any of them generate the same response. One such tool is often referred to as `john`, but the full name is what?<br>
-A：<code>john the ripper</code><br>
+A：<code>john the ripper</code><br><br>
 <a href="https://www.itperfection.com/computer-network-concepts/what-is-john-the-ripper-and-how-does-it-work-password-checker-brute-force-dictionary-attack/">What is John the Ripper and How Does it Work?</a>
 
 <h3>TASK 9</h3>
