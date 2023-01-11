@@ -15,19 +15,20 @@ A：<code>-sC</code><br>
 <h3>TASK 2</h3>
 Q：What is the domain of the email address provided in the "Contact" section of the website?<br>
 A：<code>vsftpd 3.0.3</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/version.png" alt="version" width="60%">
+
 
 <h3>TASK 3</h3>
 Q：In the absence of a DNS server, which Linux file can we use to resolve hostnames to IP addresses in order to be able to access the websites that point to those hostnames?<br>
 A：<code>230</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/statuscode.png" alt="statuscode" width="60%">
-By the way, <a href="https://nmap.org/nsedoc/scripts/">NSE Scripts</a> is useful to find out how to use or what parameters are available.<br>
-<code>ftp-anon</code> mentioned in the picture, can also be found in <a href="https://nmap.org/nsedoc/scripts/">NSE Scripts</a>.<br>
-<code>ftp-anon：Checks if an FTP server allows anonymous logins.</code>
 
 <h3>TASK 4</h3>
 Q：Which sub-domain is discovered during further enumeration?<br>
-A：<code>get</code><br>
+A：<code>get</code><br><br>
+<pre text="class">
+vhost                     Uses VHOST enumeration mode 
+-u, --url string          The target URL
+-w, --wordlist string     Path to the wordlist
+</pre>
 
 <h3>TASK 5</h3>
 Q：Which service is running on the discovered sub-domain?<br>
