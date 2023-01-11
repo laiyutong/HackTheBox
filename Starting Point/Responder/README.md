@@ -59,7 +59,7 @@ A：<code>john the ripper</code>
 
 <h3>TASK 9</h3>
 Q：What is the password for the administrator user?<br>
-A：<code>404</code>
+A：<code>badminton</code>
 
 <h3>TASK 10</h3>
 Q：We'll use a Windows service (i.e. running on the box) to remotely access the Responder machine using the password we recovered. What port TCP does it listen on?<br>
