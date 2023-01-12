@@ -69,11 +69,9 @@ list all of the S3 buckets hosted by the server by using the following command.<
 <code>aws --endpoint=http://s3.thetoppers.htb s3 ls</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls.png" alt="awsls" width="60%">
 
-
 <h3>TASK 9</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
 A：<code>php</code><br><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls2.png" alt="awsls2" width="60%">
 
 <h2>SUBMIT FLAG</h2>
 FYI：About <a href="https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/">TLDR</a> command<br>
