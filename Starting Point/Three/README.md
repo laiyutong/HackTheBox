@@ -56,7 +56,7 @@ Abourt <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/referen
 
 <h3>TASK 6</h3>
 Q：Which command line utility can be used to interact with the service running on the discovered sub-domain?<br>
-A：<code>2.4.41</code>
+A：<code>awscli</code>
 
 <h3>TASK 7</h3>
 Q：Which command is used to set up the AWS CLI installation?<br>
