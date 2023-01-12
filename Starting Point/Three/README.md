@@ -24,19 +24,27 @@ A：<code>/etc/hosts</code><br>
 <h3>TASK 4</h3>
 Q：Which sub-domain is discovered during further enumeration?<br>
 A：<code>s3.thetoppers.htb</code><br><br>
+There are different enumeration tools available like <code>gobuster</code>, <code>wfuzz</code> , <code>feroxbuster</code> etc.<br>
+Here I use gobuster for sub-domain enumeration by using the following command.<br>
 <pre text="class">
-vhost                      Uses VHOST enumeration mode 
--u (--url string)          The target URL
--w (--wordlist string)     Path to the wordlist
+gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u
+http://thetoppers.htb --apend-domain
+
+vhost：Uses VHOST enumeration mode 
+-u (--url string)：The target URL
+-w (--wordlist string)：Path to the wordlist
+
+<b>Note</b>:
+If using Gobuster version <code>3.2.0 and above</code> we also have to add the <code>--append-domain</code> flag to our
+command so that the enumeration takes into account the known vHost ( thetoppers.htb ) and appends it
+to the words found in the wordlist ( word.thetoppers.htb ).
 </pre>
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/gobuster.png" alt="gobuster" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/vhost1.png" alt="vhost1" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/vhost2.png" alt="vhost2" width="60%">
 
-<b>Note</b>: <br>
-If using Gobuster version <code>3.2.0 and above</code> we also have to add the <code>--append-domain</code> flag to our
-command so that the enumeration takes into account the known vHost ( thetoppers.htb ) and appends it
-to the words found in the wordlist ( word.thetoppers.htb ).
+
 
 <h3>TASK 5</h3>
 Q：Which service is running on the discovered sub-domain?<br>
