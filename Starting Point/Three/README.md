@@ -42,7 +42,6 @@ to the words found in the wordlist ( word.thetoppers.htb ).
 </pre>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/gobuster.png" alt="gobuster" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/vhost1.png" alt="vhost1" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/vhost2.png" alt="vhost2" width="60%">
 
 
