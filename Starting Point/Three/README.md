@@ -29,8 +29,7 @@ Here I use gobuster for sub-domain enumeration by using the following command.<b
 If you do not have wordlist of subdomain, you can <a href="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/subdomain.txt">download</a> here.
 <pre text="class">
 <b>Command</b>:
-gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u
-http://thetoppers.htb --apend-domain<br>
+gobuster vhost -w /usr/share/wordlists/subdonain.txt -u http://thetoppers.htb --apend-domain<br>
 <b>Parameter Description</b>:
 vhost：Uses VHOST enumeration mode 
 -u (--url string)：The target URL
