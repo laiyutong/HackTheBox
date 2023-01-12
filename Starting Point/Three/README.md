@@ -47,7 +47,7 @@ Install awscli on Linux：
 
 First, we need to configure awscli using the following command.<br>
 <code>aws configure</code><br>
-<a href="https://docs.aws.amazon.com/cli/latest/reference/configure/">Abourt aws configure</a>
+Abourt <a href="https://docs.aws.amazon.com/cli/latest/reference/configure/">aws configure</a>
 
 list all of the S3 buckets hosted by the server by using the ls command.<br>
 <code>aws --endpoint=http://s3.thetoppers.htb s3 ls</code><br>
