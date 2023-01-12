@@ -134,5 +134,5 @@ Try to enter <code>id</code> first to see whether the response from the server c
 The result does return information about the <code>id</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc1.png" alt="nc1" width="60%"><br><br>
 You will get the flag after trying to use <code>cd</code> or <code>ls</code> command！<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc2.png" alt="nc2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc2.png" alt="nc2" width="40%">
 
