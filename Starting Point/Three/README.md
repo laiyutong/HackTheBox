@@ -37,7 +37,7 @@ to the words found in the wordlist ( word.thetoppers.htb ).
 
 <h3>TASK 5</h3>
 Q：Which service is running on the discovered sub-domain?<br>
-A：<code>admin</code><br><br>
+A：<code>amazon s3</code><br><br>
 
 <pre text="class">
 Install awscli on Linux：
