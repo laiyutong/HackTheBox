@@ -44,37 +44,33 @@ to the words found in the wordlist ( word.thetoppers.htb ).
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/gobuster.png" alt="gobuster" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/vhost2.png" alt="vhost2" width="60%">
 
-
-
 <h3>TASK 5</h3>
 Q：Which service is running on the discovered sub-domain?<br>
 A：<code>amazon s3</code><br><br>
-<pre text="class">
-Install awscli on Linux：
-    apt-get update
-    apt-get install awscli
-</pre>
-
-First, we need to configure awscli using the following command.<br>
-<code>aws configure</code><br><br>
-
-list all of the S3 buckets hosted by the server by using the ls command.<br>
-<code>aws --endpoint=http://s3.thetoppers.htb s3 ls</code><br>
 
 <h3>TASK 6</h3>
 Q：Which command line utility can be used to interact with the service running on the discovered sub-domain?<br>
 A：<code>awscli</code><br><br>
+<pre text="class">
+<b>Install awscli on Linux</b>:
+    apt-get update
+    apt-get install awscli
+</pre>
 
 <h3>TASK 7</h3>
 Q：Which command is used to set up the AWS CLI installation?<br>
 A：<code>aws configure</code><br><br>
 FYI：Abourt <a href="https://docs.aws.amazon.com/cli/latest/reference/configure/">aws configure</a>
 
+
+
 <h3>TASK 8</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
 A：<code>aws s3 ls</code><br><br>
 FYI：About <a href="https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/">TLDR</a> command<br>
 <img src="" alt="-sC" width="60%">
+list all of the S3 buckets hosted by the server by using the ls command.<br>
+<code>aws --endpoint=http://s3.thetoppers.htb s3 ls</code><br>
 
 <h3>TASK 9</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
