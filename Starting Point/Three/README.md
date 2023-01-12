@@ -76,11 +76,15 @@ A：<code>php</code><br><br>
 <h2>SUBMIT FLAG</h2>
 FYI：About <a href="https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/">TLDR</a> command<br>
 
-<img src="" alt="-sC" width="60%">
-<img src="" alt="-sC" width="60%">
-<img src="" alt="-sC" width="60%">
-<img src="" alt="-sC" width="60%">
-<img src="" alt="-sC" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/s3thetoppers.png" alt="s3thetoppers" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/etc_hosts.png" alt="etc_hosts" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsconfigure.png" alt="awsconfigure" width="40%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls.png" alt="awsls" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls2.png" alt="awsls2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/shell.php.png" alt="shell.php" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/cp_shell.png" alt="cp_shell" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls3.png" alt="awsls3" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/cmd%3Did.png" alt="cmdid" width="60%">
 <img src="" alt="-sC" width="60%">
 <img src="" alt="-sC" width="60%">
 <img src="" alt="-sC" width="60%">
