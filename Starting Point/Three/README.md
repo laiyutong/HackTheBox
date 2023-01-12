@@ -111,11 +111,16 @@ The response from the server contains the output of the OS command <code>id</cod
 which verified that we have <code>code execution</code> on the box.<br><br>
 Thus, let us now try to obtain a reverse shell.<br>
 
-Through a reverse shell, we will trigger the remote host to connect back to our local machine's IP address on
-the specified listening port.<br>
+Through a reverse shell, we will trigger the remote host to connect back to our <code>local machine's IP</code> address on the specified listening port.<br>
+Obtain the <code>tun0 IP</code> address of our local machine by using <code>ifconfig</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/ifocnfig.png" alt="ifocnfig" width="60%"><br>
 
+Create a new file <code>shell.sh</code> which containing the following bash reverse shell payload.<br>
+Reverse shell will connect back to our local machine on port 1337.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/shell.sh.png" alt="shell.sh" width="40%">
+
+Start a <code>nc</code> listener on our local port 1337 with the command <code>nc -nvlp 1337</code>.<br>
+Start a <code>web server</code> on our local machine on port 8000 and host bash file with the command <code>python3 -m http.server 8000</code>.<br>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/http_server.png" alt="http_server" width="60%">
 
