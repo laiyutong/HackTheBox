@@ -85,7 +85,9 @@ FYI：About <a href="https://www.tecmint.com/tldr-easy-to-understand-linux-man-p
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/cp_shell.png" alt="cp_shell" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls3.png" alt="awsls3" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/cmd%3Did.png" alt="cmdid" width="60%">
-<img src="" alt="-sC" width="60%">
-<img src="" alt="-sC" width="60%">
-<img src="" alt="-sC" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/ifocnfig.png" alt="ifocnfig" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/shell.sh.png" alt="shell.sh" width="40%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/http_server.png" alt="http_server" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc1.png" alt="nc1" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc2.png" alt="nc2" width="60%">
 <img src="" alt="-sC" width="60%">
