@@ -86,12 +86,12 @@ Listing all prefixes and objects in a bucket with the command <code>aws --endpoi
 We can see the files <code>index.php</code> , <code>.htaccess</code> and a directory called <code>images</code> in the specified bucket.<br>
 It seems like that is the webroot of the website running on port 80.<br>
 So the Apache server is using this S3 bucket as storage.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls2.png" alt="awsls2" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls2.png" alt="awsls2" width="60%">
 
 We already know that the website is using PHP.<br>
 Thus, we can try uploading a <code>PHP shell</code> file to the S3 bucket and since it's uploaded to
 the webroot directory we can visit this webpage in the browser, which will, in turn, execute this file and we
-will achieve <code>remote code execution</code>.<br><br>
+will achieve <code>remote code execution</code>.<br>
 
 Using the following <code>PHP one-liner</code> which uses the <code>system()</code> function which takes the URL parameter
 <code>cmd</code> as an input and <code>executes</code> it as a system command.<br>
@@ -100,7 +100,7 @@ Using the following <code>PHP one-liner</code> which uses the <code>system()</co
 <code>awscli</code> has got another feature that allows us to <code>copy files</code> to a remote bucket.<br>
 command：<code>aws --endpoint=http://s3.thetoppers.htb s3 cp shell.php s3://thetoppers.htb</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/cp_shell.png" alt="cp_shell" width="60%"><br>
-We can confirm that our shell is uploaded by navigating to <code>http://thetoppers.htb/shell.php</code>.<br><br>
+We can confirm that our shell is uploaded by navigating to <code>http://thetoppers.htb/shell.php</code>.<br>
 
 Check if <code>shell.php</code> is uploaded successfully<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/awsls3.png" alt="awsls3" width="60%"><br>
