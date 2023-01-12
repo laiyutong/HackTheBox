@@ -130,6 +130,8 @@ Thus, let us visit the following URL containing the payload in the browser.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/curl.png" alt="curl" width="60%">
 
 We receive a reverse shell on the corresponding listening port.<br>
+Try to enter id first to see whether the response from the server contains the output of the OS command id.<br>
+The result does return information about the id.
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc1.png" alt="nc1" width="60%">
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc2.png" alt="nc2" width="60%">
