@@ -25,9 +25,9 @@ A：<code>/etc/hosts</code><br>
 Q：Which sub-domain is discovered during further enumeration?<br>
 A：<code>s3.thetoppers.htb</code><br><br>
 <pre text="class">
-vhost                     Uses VHOST enumeration mode 
--u, --url string          The target URL
--w, --wordlist string     Path to the wordlist
+vhost                      Uses VHOST enumeration mode 
+-u (--url string)          The target URL
+-w (--wordlist string)     Path to the wordlist
 </pre>
 
 <b>Note</b>: <br>
