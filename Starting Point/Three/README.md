@@ -60,15 +60,14 @@ A：<code>awscli</code>
 
 <h3>TASK 7</h3>
 Q：Which command is used to set up the AWS CLI installation?<br>
-A：<code>wappalyzer</code>
+A：<code>aws configure</code>
 
 <h3>TASK 8</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
-A：<code>-x</code><br>
+A：<code>aws s3 ls</code><br>
 
 <h3>TASK 9</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
-A：<code>login.php</code>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/dirsearch.png" alt="dirsearch" width="60%">
+A：<code>php</code>
 
 <h2>SUBMIT FLAG</h2>
