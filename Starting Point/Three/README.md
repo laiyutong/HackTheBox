@@ -46,29 +46,27 @@ Install awscli on Linux：
 </pre>
 
 First, we need to configure awscli using the following command.<br>
-<code>aws configure</code><br>
-Abourt <a href="https://docs.aws.amazon.com/cli/latest/reference/configure/">aws configure</a>
+<code>aws configure</code><br><br>
 
 list all of the S3 buckets hosted by the server by using the ls command.<br>
 <code>aws --endpoint=http://s3.thetoppers.htb s3 ls</code><br>
 
-Abourt <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/ls.html">aws ls</a> command
-
 <h3>TASK 6</h3>
 Q：Which command line utility can be used to interact with the service running on the discovered sub-domain?<br>
-A：<code>awscli</code>
+A：<code>awscli</code><br><br>
 
 <h3>TASK 7</h3>
 Q：Which command is used to set up the AWS CLI installation?<br>
-A：<code>aws configure</code>
+A：<code>aws configure</code><br><br>
+FYI：Abourt <a href="https://docs.aws.amazon.com/cli/latest/reference/configure/">aws configure</a>
 
 <h3>TASK 8</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
 A：<code>aws s3 ls</code><br><br>
-FYI：About <a href="https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/">TLDR</a> command
+FYI：About <a href="https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/">TLDR</a> command<br>
 
 <h3>TASK 9</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
-A：<code>php</code>
+A：<code>php</code><br><br>
 
 <h2>SUBMIT FLAG</h2>
