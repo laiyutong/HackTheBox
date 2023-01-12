@@ -52,7 +52,7 @@ Abourt <a href="https://docs.aws.amazon.com/cli/latest/reference/configure/">aws
 list all of the S3 buckets hosted by the server by using the ls command.<br>
 <code>aws --endpoint=http://s3.thetoppers.htb s3 ls</code><br>
 
-Abourt <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/ls.html">aws ls command</a>
+Abourt <a href="https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/ls.html">aws ls</a> command
 
 <h3>TASK 6</h3>
 Q：Which command line utility can be used to interact with the service running on the discovered sub-domain?<br>
