@@ -9,13 +9,13 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 
 <h3>TASK 1</h3>
 Q：How many TCP ports are open?<br>
-A：<code>2</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Crocodile/crocodile/-sC.png" alt="-sC" width="60%">
+A：<code>2</code><br><br>
+<img src="" alt="-sC" width="60%">
 
 <h3>TASK 2</h3>
 Q：What is the domain of the email address provided in the "Contact" section of the website?<br>
-A：<code>thetoppers.htb</code><br>
-
+A：<code>thetoppers.htb</code><br><br>
+<img src="" alt="-sC" width="60%">
 
 <h3>TASK 3</h3>
 Q：In the absence of a DNS server, which Linux file can we use to resolve hostnames to IP addresses in order to be able to access the websites that point to those hostnames?<br>
@@ -29,6 +29,11 @@ vhost                      Uses VHOST enumeration mode
 -u (--url string)          The target URL
 -w (--wordlist string)     Path to the wordlist
 </pre>
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
 
 <b>Note</b>: <br>
 If using Gobuster version <code>3.2.0 and above</code> we also have to add the <code>--append-domain</code> flag to our
@@ -38,12 +43,18 @@ to the words found in the wordlist ( word.thetoppers.htb ).
 <h3>TASK 5</h3>
 Q：Which service is running on the discovered sub-domain?<br>
 A：<code>amazon s3</code><br><br>
-
 <pre text="class">
 Install awscli on Linux：
     apt-get update
     apt-get install awscli
 </pre>
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
+<img src="" alt="-sC" width="60%">
 
 First, we need to configure awscli using the following command.<br>
 <code>aws configure</code><br><br>
@@ -64,6 +75,7 @@ FYI：Abourt <a href="https://docs.aws.amazon.com/cli/latest/reference/configure
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
 A：<code>aws s3 ls</code><br><br>
 FYI：About <a href="https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/">TLDR</a> command<br>
+<img src="" alt="-sC" width="60%">
 
 <h3>TASK 9</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
