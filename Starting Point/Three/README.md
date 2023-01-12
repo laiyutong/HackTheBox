@@ -27,9 +27,10 @@ A：<code>s3.thetoppers.htb</code><br><br>
 There are different enumeration tools available like <code>gobuster</code>, <code>wfuzz</code> , <code>feroxbuster</code> etc.<br>
 Here I use gobuster for sub-domain enumeration by using the following command.<br>
 <pre text="class">
+<b>Command</b>:
 gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u
-http://thetoppers.htb --apend-domain
-
+http://thetoppers.htb --apend-domain<br>
+<b>Parameter Description</b>:
 vhost：Uses VHOST enumeration mode 
 -u (--url string)：The target URL
 -w (--wordlist string)：Path to the wordlist
