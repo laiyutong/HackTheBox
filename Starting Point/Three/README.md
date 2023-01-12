@@ -64,7 +64,8 @@ A：<code>aws configure</code>
 
 <h3>TASK 8</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
-A：<code>aws s3 ls</code><br>
+A：<code>aws s3 ls</code><br><br>
+FYI：About <a href="https://www.tecmint.com/tldr-easy-to-understand-linux-man-pages/">TLDR</a> command
 
 <h3>TASK 9</h3>
 Q：What is the command used by the above utility to list all of the S3 buckets?<br>
