@@ -51,7 +51,7 @@ A：<code>directory</code>
 <h3>TASK 9</h3>
 Q：What response code is given for "Not Found" errors?<br>
 A：<code>404</code><br>
-<img src="https://i.imgur.com/cMyKLcV.png" alt="statuscode" width="60%">
+<img src="https://i.imgur.com/cMyKLcV.png" alt="statuscode" width="40%">
 
 <h3>TASK 10</h3>
 Q：What switch do we use with Gobuster to specify we're looking to discover directories, and not subdomains?<br>
