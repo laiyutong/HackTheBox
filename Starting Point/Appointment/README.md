@@ -37,10 +37,12 @@ A：<code>Apache httpd 2.4.38 ((Debian))</code><br><br>
 <h3>TASK 6</h3>
 Q：What is the standard port used for the HTTPS protocol?<br>
 A：<code>443</code>
+<img src="https://i.imgur.com/86GNwd6.png" alt="port" width="40%">
 
 <h3>TASK 7</h3>
 Q：What is one luck-based method of exploiting login pages?<br>
-A：<code>brute-forcing</code>
+A：<code>brute-forcing</code><br>
+FYI：<a href="https://www.kaspersky.com/resource-center/definitions/brute-force-attack">Brute Force</a> Attack: Definition and Examples
 
 <h3>TASK 8</h3>
 Q：What is a folder called in web-application terminology?<br>
@@ -48,7 +50,8 @@ A：<code>directory</code>
 
 <h3>TASK 9</h3>
 Q：What response code is given for "Not Found" errors?<br>
-A：<code>404</code>
+A：<code>404</code><br>
+<img src="https://i.imgur.com/cMyKLcV.png" alt="statuscode" width="60%">
 
 <h3>TASK 10</h3>
 Q：What switch do we use with Gobuster to specify we're looking to discover directories, and not subdomains?<br>
