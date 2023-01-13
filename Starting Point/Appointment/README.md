@@ -56,6 +56,8 @@ A：<code>404</code><br>
 <h3>TASK 10</h3>
 Q：What switch do we use with Gobuster to specify we're looking to discover directories, and not subdomains?<br>
 A：<code>dir</code>
+<br>
+<img src="https://i.imgur.com/qddt7Nw.png" alt="gobuster" width="60%">
 
 <h3>TASK 11</h3>
 Q：What symbol do we use to comment out parts of the code?<br>
