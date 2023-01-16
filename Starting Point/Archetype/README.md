@@ -27,13 +27,16 @@ FYI：<a href="https://www.secureauth.com/labs/open-source-tools/impacket/">Secu
 
 <h3>TASK 5</h3>
 Q：What extended stored procedure of Microsoft SQL Server can be used in order to spawn a Windows command shell?<br>
-A：<code></code><br><br>
+A：<code>xp_cmdshell</code><br><br>
+<a href="1433 - Pentesting MSSQL - Microsoft SQL Server">1433 - Microsoft SQL Server</a><br>
+<a href="https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet">MSSQL Injection Cheat Sheet</a><br>
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Appointment/appointment/nmap.png" alt="nmap" width="60%">
 
 <h3>TASK 6</h3>
 Q：What script can be used in order to search possible paths to escalate privileges on Windows hosts?<br>
-A：<code></code>
-<img src="https://i.imgur.com/86GNwd6.png" alt="port" width="40%">
+A：<code>WinPEAS</code><br><br>
+<a href="https://github.com/carlospolop/PEASS-ng/blob/master/winPEAS/winPEASexe/README.md">Windows Privilege Escalation Awesome Script (.exe)</a>
 
 <h3>TASK 7</h3>
 Q：What file contains the administrator's password?<br>
