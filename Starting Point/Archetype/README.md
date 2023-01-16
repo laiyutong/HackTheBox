@@ -23,7 +23,7 @@ A：<code>M3g4c0rp123</code><br>
 <h3>TASK 4</h3>
 Q：What script from Impacket collection can be used in order to establish an authenticated connection to a Microsoft SQL Server?<br>
 A：<code>mssqlclient.py</code><br>
-FYI：<a href="https://www.secureauth.com/labs/open-source-tools/impacket/">secure Auth</a>
+FYI：<a href="https://www.secureauth.com/labs/open-source-tools/impacket/">Secure Auth</a>
 
 <h3>TASK 5</h3>
 Q：What extended stored procedure of Microsoft SQL Server can be used in order to spawn a Windows command shell?<br>
