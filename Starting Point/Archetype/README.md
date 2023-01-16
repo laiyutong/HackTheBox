@@ -41,7 +41,7 @@ A：<code>WinPEAS</code><br><br>
 <h3>TASK 7</h3>
 Q：What file contains the administrator's password?<br>
 A：<code></code><br>
-FYI：<a href="https://www.kaspersky.com/resource-center/definitions/brute-force-attack">Brute Force</a> Attack: Definition and Examples
+<code>python3 mssqlclient.py ARCHETYPE/sql_svc:<passwd>@<TARGET IP> -windows-auth</code>
 
 
 <h2>SUBMIT FLAG</h2>
