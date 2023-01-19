@@ -38,7 +38,7 @@ Finally, you can get two flags！<br>
 
 <h2>SUBMIT FLAG</h2>
 <h3>Method 2 - Metasploit</h3>
-What is the <a href="https://www.offensive-security.com/metasploit-unleashed/msfconsole/">MSFconsole</a>?<br>
+FYI：What is the <a href="https://www.offensive-security.com/metasploit-unleashed/msfconsole/">MSFconsole</a>?<br><br>
 The interface of command <code>msfconsole</code> is shown below.<br>
 Type <code>?</code> or <code>help</code>  can see the command descriptions.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/msfconsole.png" alt="msfconsole" width="80%">
