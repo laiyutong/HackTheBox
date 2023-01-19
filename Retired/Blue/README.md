@@ -7,6 +7,12 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 
 <h2>SUBMIT FLAG</h2>
 <h3>Method 1 - MetasploitReverse Shell</h3>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue/nmap.png" alt="nmap" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue/vulnnmap.png" alt="vulnnmap" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue/search.png" alt="search" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue/showoptions.png" alt="showoptions" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue/set.png" alt="set" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue/getflag.png" alt="getflag" width="60%">
 
 
 <h2>SUBMIT FLAG</h2>
