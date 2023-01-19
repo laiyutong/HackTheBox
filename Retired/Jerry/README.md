@@ -34,8 +34,8 @@ Click on <code>shell</code> and a shell will be presented in the Netcat shell.<b
 Travel through the directory and grab the flags.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/nc1.png" alt="nc1" width="60%">
 Finally, you can get two flags！<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/flag.png" alt="flag" width="60%">
-
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/flag.png" alt="flag" width="60%"><br>
+<h2>SUBMIT FLAG</h2>
 <h3>Method 2 - Metasploit</h3>
 <img src="" alt="download" width="60%">
 <img src="" alt="download" width="60%">
