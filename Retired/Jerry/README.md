@@ -42,10 +42,16 @@ What is the <a href="https://www.offensive-security.com/metasploit-unleashed/msf
 The interface of command <code>msfconsole</code> is shown below.<br>
 Type <code>?</code> or <code>help</code>  can see the command descriptions.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/msfconsole.png" alt="msfconsole" width="80%">
-Using <code>search</code> to find the module
+Using <code>search</code> to find the specific module.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/searchtomcat.png" alt="searchtomcat" width="80%">
+<code><b>use</b> exploit/multi/http/tomcat_mgr_upload</code>：Use a module <code>exploit/multi/http/tomcat_mgr_upload</code><br>
+<code>show options</code>：Show module options<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/usesploit.png" alt="usesploit" width="80%">
+Set parameter as below.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/usesploit1.png" alt="usesploit1" width="80%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/usesploit2.png" alt="usesploit2" width="80%">
+Using <code>shell</code> to find the specific module.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/shell.png" alt="shell" width="60%">
+Travel through the directory and grab the flags.<br>
+Finally, you can get two flags！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/flag.png" alt="flag" width="60%">
