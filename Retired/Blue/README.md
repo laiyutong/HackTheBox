@@ -43,4 +43,4 @@ Set up a netcat listener to catch reverse shell when it is executed by the victi
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/nc_success.png" alt="nc_success" width="60%">
 You can get two flags after traveling the directory！
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/getflag1.png" alt="getflag1" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/getflag1.png" alt="getflag1" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/user.txt.png" alt="user.txt" width="60%">
