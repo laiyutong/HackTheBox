@@ -22,6 +22,7 @@ Because the vulnerable script scans out as ms17-010, use msfconsole: search ms17
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue/set.png" alt="set" width="80%">
 You can get flag after traveling through the directory and grab the flags.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue/getflag.png" alt="getflag" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/user.txt.png" alt="user.txt" width="60%">
 
 <h2>SUBMIT FLAG</h2>
 <h3>Method 2 - Shell</h3>
