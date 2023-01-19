@@ -37,8 +37,10 @@ Finally, you can get two flags！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/flag.png" alt="flag" width="60%"><br>
 <h2>SUBMIT FLAG</h2>
 <h3>Method 2 - Metasploit</h3>
-<img src="" alt="download" width="60%">
-<img src="" alt="download" width="60%">
-<img src="" alt="download" width="60%">
-<img src="" alt="download" width="60%">
-
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/msfconsole.png" alt="msfconsole" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/searchtomcat.png" alt="searchtomcat" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/usesploit.png" alt="usesploit" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/usesploit1.png" alt="usesploit1" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/usesploit2.png" alt="usesploit2" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/shell.png" alt="shell" width="80%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/flag.png" alt="flag" width="60%">
