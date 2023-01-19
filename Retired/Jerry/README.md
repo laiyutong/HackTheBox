@@ -25,11 +25,10 @@ FYI：How to use <a href="https://docs.metasploit.com/docs/using-metasploit/basi
 Once the shell.war is generated, upload it to Tomcat.<br>
 Click <code>Deploy</code> after seeing the previously generated war file is selected that shown as below. <br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/uploadshell.war.png" alt="uploadshell.war" width="60%">
-
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/afterupload.png" alt="afterupload" width="60%">
-
+Before clicking on <code>shell</code> which we upload, run an nc shell to listen on a 1234 port.<br>
+<code>nc -lvnp 1234<code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/nc.png" alt="nc" width="30%">
-
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/afterupload.png" alt="afterupload" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/clickshell.png" alt="clickshell" width="30%">
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/nc1.png" alt="nc1" width="60%">
