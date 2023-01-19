@@ -11,11 +11,11 @@ Only <code>8080</code> port is opened on the machine and <code>Apache Tomcat</co
 Without credentials, we are restricted from entering certain pages by clicking buttons.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/8080.png" alt="8080" width="60%">
 The page will display the info of <code>401 Unauthorized</code>.<br>
-If you watch carefully, the message include the username and the userpassword which we need.<br>
+If you watch carefully, the message include the <code>username</code> and the <code>userpassword</code> which we need.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/userpasswd.png" alt="download" width="60%">
-
+Therefore, we use the given username and userpassword to login.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/login.png" alt="login" width="30%">
-
+After login succcessfully, the url appended the postfix <code>/manager/html</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/manager.png" alt="manager" width="60%">
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/WAR.png" alt="WAR" width="60%">
