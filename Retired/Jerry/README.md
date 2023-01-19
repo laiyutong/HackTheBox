@@ -6,6 +6,7 @@ Connect to Starting Point VPN before starting the machine<br>
 Using <code>openvpn</code> to operate the file of <code>download vpn</code> in kali.
 
 <h2>SUBMIT FLAG</h2>
+<h3>Method 1 - Reverse Shell</h3>
 Only <code>8080</code> port is opened on the machine and <code>Apache Tomcat</code> is running on it.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/nmap.png" alt="nmap" width="60%">
 Without credentials, we are restricted from entering certain pages by clicking buttons.<br>
@@ -35,6 +36,7 @@ Travel through the directory and grab the flags.<br>
 Finally, you can get two flags！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/flag.png" alt="flag" width="60%">
 
+<h3>Method 2 - Metasploit</h3>
 <img src="" alt="download" width="60%">
 <img src="" alt="download" width="60%">
 <img src="" alt="download" width="60%">
