@@ -50,8 +50,9 @@ Using <code>search</code> to find the specific module.<br>
 Set parameter as below.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/usesploit1.png" alt="usesploit1" width="80%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/usesploit2.png" alt="usesploit2" width="80%">
-Using <code>shell</code> to find the specific module.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/shell.png" alt="shell" width="60%">
+Using <code>shell</code> to enter command mode.<br>
+Using <code>whoami</code> to check the role.<br>
 Travel through the directory and grab the flags.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/shell.png" alt="shell" width="60%">
 Finally, you can get two flags！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Jerry/Jerry/flag.png" alt="flag" width="60%">
