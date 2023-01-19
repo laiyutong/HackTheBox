@@ -25,4 +25,13 @@ You can get flag after traveling through the directory and grab the flags.<br>
 
 <h2>SUBMIT FLAG</h2>
 <h3>Method 2 - Shell</h3>
+<b>command</b>：<code>git clone https://github.com/3ndG4me/AutoBlue-MS17-010.git
+</code><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/shell_prep.png" alt="shell_prep" width="80%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/sc_x64.png" alt="sc_x64" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/nc_success.png" alt="nc_success" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Blue/blue_shell/getflag1.png" alt="getflag1" width="60%">
 
