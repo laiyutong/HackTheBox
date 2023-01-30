@@ -50,10 +50,15 @@ Q：What is the name of the executable being called in an insecure manner?<br>
 A：<code>cat</code><br><br>
 
 <h2>SUBMIT FLAG</h2>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/nmap.png" alt="nmap" width="60%"><br>
+The <code>port 22(SSH)</code> and <code>port 80(HTTP)</code> are open, therefore, we visit the IP by using the web browser.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/nmap.png" alt="nmap" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/website.png" alt="website" width="60%"><br>
+We can find there is a directory <code>/cdn-cgi/login</code> by using <code>BurpSuite</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/burpsuite.png" alt="burpsuite" width="60%"><br>
+Go back to webpage and add the postfix <code>/cdn-cgi/login</code> to the URL.<br>
+It will display a login page, we do not have account yet, so click <code>Login as Guest</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/loginpage.png" alt="loginpage" width="60%"><br>
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/menu_account.png" alt="menu_account" width="60%"><br>
 
 
