@@ -68,3 +68,17 @@ A：<code>cat</code><br><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/changeip_port.png" alt="changeip_port" width="30%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/uploaded.png" alt="uploaded" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/nc.png" alt="nc" width="60%"><br>
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/user.txt.png" alt="user.txt" width="60%"><br>
+
+<h3>Laveral Movement</h3>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/sudofail.png" alt="sudofail" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/robert.png" alt="robert" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/ssh.png" alt="ssh" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/llbugtracker.png" alt="llbugtracker" width="40%"><br>
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/robert_locate_bugtracker.png" alt="robert_locate_bugtracker" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/bugtracker_hello.png" alt="bugtracker_hello" width="40%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/previledgeupdate.png" alt="previledgeupdate" width="60%"><br>
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/root.txt2.png" alt="root.txt2" width="40%"><br>
