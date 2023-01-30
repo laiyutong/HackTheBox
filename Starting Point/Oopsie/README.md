@@ -11,10 +11,7 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 
 <h3>TASK 1</h3>
 Q：With what kind of tool can intercept web traffic?<br>
-A：<code>Structured Query Language</code><br><br>
-The SQL acronym stands for Structured Query Language.<br>
-It is a universal programming language used to manage relational databases (RDBMS).<br>
-Many relational database systems support the SQL language, including MySQL, SQL Server, and Oracle. <br>
+A：<code>proxy</code><br><br>
 
 <h3>TASK 2</h3>
 Q：What is the path to the directory on the webserver that returns a login page?<br>
