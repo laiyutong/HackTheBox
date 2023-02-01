@@ -20,7 +20,7 @@ A：<code>anonymous</code><br><br>
 
 <h3>TASK 3</h3>
 Q：What is the name of the file downloaded over this service?<br>
-A：<code>cookie</code><br><br>
+A：<code>backup.zip</code><br><br>
 
 <h3>TASK 4</h3>
 Q：What script comes with the John The Ripper toolset and generates a hash from a password protected zip archive in a format to allow for cracking attempts?<br>
