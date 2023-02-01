@@ -24,7 +24,7 @@ A：<code>backup.zip</code><br><br>
 
 <h3>TASK 4</h3>
 Q：What script comes with the John The Ripper toolset and generates a hash from a password protected zip archive in a format to allow for cracking attempts?<br>
-A：<code>34322</code><br><br>
+A：<code>zip2john</code><br><br>
 
 <h3>TASK 5</h3>
 Q：What is the password for the admin user on the website?<br>
