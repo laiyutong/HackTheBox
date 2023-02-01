@@ -14,8 +14,8 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/showoptions.png" alt="showoptions" width="60%">
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/set.png" alt="set" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/vuln.png" alt="vuln" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/help.png" alt="help" width="60%">
 
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/nmap.png" alt="nmap" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/vuln.png" alt="vuln" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/usertxt.png" alt="usertxt" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/roottxt.png" alt="roottxt" width="60%">
 
