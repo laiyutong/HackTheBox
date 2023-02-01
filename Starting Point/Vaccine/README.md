@@ -28,7 +28,7 @@ A：<code>zip2john</code><br><br>
 
 <h3>TASK 5</h3>
 Q：What is the password for the admin user on the website?<br>
-A：<code>/uploads</code><br><br>
+A：<code>qwerty789</code><br><br>
 
 <h3>TASK 6</h3>
 Q：What option can be passed to sqlmap to try to get command execution via the sql injection?<br>
