@@ -22,11 +22,17 @@ Open metasploit framework console and search the vulnerability.<br>
   <code>search &lt;vulnerability&gt;</code>
 </pre>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/msfconsole.png" alt="msfconsole" width="60%">
+
+<b>command</b>：<code>use &lt;Name of Matching Modules&gt;</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/showoptions.png" alt="showoptions" width="60%">
 
+Setting the target ip , local ip, etc.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/set.png" alt="set" width="60%">
+
+You can enter <code>help</code> to see the parameter and description.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/help.png" alt="help" width="60%">
 
+After exploit successfully, you can get flags by traveling through the directory！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/usertxt.png" alt="usertxt" width="40%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/roottxt.png" alt="roottxt" width="40%">
 
