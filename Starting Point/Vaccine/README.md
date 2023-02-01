@@ -16,7 +16,7 @@ A：<code>ftp</code><br><br>
 <h3>TASK 2</h3>
 Q：This service can be configured to allow login with any password for specific username.<br>
 What is that username?<br>
-A：<code>/cdn-cgi/login</code><br><br>
+A：<code>anonymous</code><br><br>
 
 <h3>TASK 3</h3>
 Q：What is the name of the file downloaded over this service?<br>
