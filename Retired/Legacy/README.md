@@ -33,6 +33,6 @@ You can enter <code>help</code> to see the parameter and description.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/help.png" alt="help" width="60%">
 
 After exploit successfully, you can get flags by traveling through the directory！<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/usertxt.png" alt="usertxt" width="40%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/usertxt.png" alt="usertxt" width="40%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/roottxt.png" alt="roottxt" width="40%">
 
