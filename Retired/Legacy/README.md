@@ -6,10 +6,21 @@ Connect to Starting Point VPN before starting the machine<br>
 Using <code>openvpn</code> to operate the file of <code>download vpn</code> in kali.
 
 <h2>SUBMIT FLAG</h2>
-
+Using nmap to scan, we can find  <code>135</code>,  <code>139</code>,  <code>445</code> port are open.<br>
+<b>command</b>：<code>nmap -sC -sV &lt;ip&gt;</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/nmap.png" alt="nmap" width="60%">
+
+Next, using nmap  <code>vuln scripts</code> to check for known vulnerabilities in service.<br>
+<b>command</b>：<code>nmap --script=vuln -sC -sV &lt;ip&gt; -p &lt;port&gt;</code><br>
+The vulnerable script scans out as <code>MS08-067</code> and <code>ms17-010</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/vuln.png" alt="vuln" width="60%">
 
+Open metasploit framework console and search the vulnerability.<br>
+<pre text="class">
+<b>command</b>：
+  <code>msfconsole</code>
+  <code>search &lt;vulnerability&gt;</code>
+</pre>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/msfconsole.png" alt="msfconsole" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Retired/Legacy/Legacy/showoptions.png" alt="showoptions" width="60%">
 
