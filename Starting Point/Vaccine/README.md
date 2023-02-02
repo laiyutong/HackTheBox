@@ -39,23 +39,27 @@ Q：What program can the postgres user run as root using sudo?<br>
 A：<code>find</code><br><br>
 
 <h2>SUBMIT FLAG</h2>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/nmap.png" alt="nmap" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/website.png" alt="website" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/burpsuite.png" alt="burpsuite" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/loginpage.png" alt="loginpage" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/menu_account.png" alt="menu_account" width="60%"><br>
 
+<a href="https://www.md5online.org/md5-decrypt.html">MD5 Decryption</a>
 
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/id%3D2.png" alt="id_2" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/id%3D1.png" alt="id_1" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/dirsearch.png" alt="dirsearch" width="50%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/gobuster.png" alt="gobuster" width="50%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/Dev_storage.png" alt="Dev_storage" width="60%"><br>
-
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/Dev_admin.png" alt="Dev_admin" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/reverseshell.png" alt="reverseshell" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/changeip_port.png" alt="changeip_port" width="30%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/uploaded.png" alt="uploaded" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/nc.png" alt="nc" width="60%"><br>
-
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Oopsie/Oopsie/user.txt.png" alt="user.txt" width="60%"><br>
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
+<img src="" alt="" width="60%">
