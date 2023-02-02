@@ -32,7 +32,7 @@ A：<code>qwerty789</code><br><br>
 
 <h3>TASK 6</h3>
 Q：What option can be passed to sqlmap to try to get command execution via the sql injection?<br>
-A：<code>db.php</code><br><br>
+A：<code>--os-shell</code><br><br>
 
 <h3>TASK 7</h3>
 Q：What program can the postgres user run as root using sudo?<br>
