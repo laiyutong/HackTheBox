@@ -22,8 +22,7 @@ FYI：About <a href="https://www.secureauth.com/labs/open-source-tools/impacket/
 
 <h3>TASK 4</h3>
 Q：What is the CVE for the identified vulnerability?<br>
-A：<code>A03:2021-Injection</code><br>
-FYI：<a href="https://www.bitdefender.com/consumer/support/answer/28357/">Protect your Personally Identifiable Information (PII)</a>
+A：<code>CVE-2021-44228</code><br>
 
 <h3>TASK 5</h3>
 Q：What protocol does JNDI leverage in the injection?<br>
