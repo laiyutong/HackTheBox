@@ -9,15 +9,11 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 
 <h3>TASK 1</h3>
 Q：Which are the first four open ports?<br>
-A：<code>Structured Query Language</code><br><br>
-The SQL acronym stands for Structured Query Language.<br>
-It is a universal programming language used to manage relational databases (RDBMS).<br>
-Many relational database systems support the SQL language, including MySQL, SQL Server, and Oracle. <br>
+A：<code>22,6789,8080,8443</code><br><br>
 
 <h3>TASK 2</h3>
 Q：What is the title of the software that is running running on port 8443?<br>
-A：<code>SQL Injection</code><br>
-FYI：What is <a href="https://www.acunetix.com/websitesecurity/sql-injection/">SQL Injection</a> (SQLi) and How to Prevent It.<br>
+A：<code>UniFi Network</code><br>
 
 <h3>TASK 3</h3>
 Q：What is the version of the software that is running?<br>
