@@ -22,6 +22,7 @@ A：<code>6.4.54</code><br>
 <h3>TASK 4</h3>
 Q：What is the CVE for the identified vulnerability?<br>
 A：<code>CVE-2021-44228</code><br>
+FYI：<a href="https://www.sprocketsecurity.com/resources/another-log4j-on-the-fire-unifi">Unified 6.4.54 exploit</a>
 
 <h3>TASK 5</h3>
 Q：What protocol does JNDI leverage in the injection?<br>
