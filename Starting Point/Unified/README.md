@@ -17,8 +17,7 @@ A：<code>UniFi Network</code><br>
 
 <h3>TASK 3</h3>
 Q：What is the version of the software that is running?<br>
-A：<code>Personally Identifiable Information</code><br>
-FYI：About <a href="https://www.secureauth.com/labs/open-source-tools/impacket/">Secure Auhth</a>
+A：<code>6.4.54</code><br>
 
 <h3>TASK 4</h3>
 Q：What is the CVE for the identified vulnerability?<br>
