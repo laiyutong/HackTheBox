@@ -26,7 +26,9 @@ FYI：<a href="https://www.sprocketsecurity.com/resources/another-log4j-on-the-f
 
 <h3>TASK 5</h3>
 Q：What protocol does JNDI leverage in the injection?<br>
-A：<code>ldap</code><br><br>
+A：<code>ldap</code><br>
+FYI：What is <a href="https://en.wikipedia.org/wiki/Java_Naming_and_Directory_Interface">JNDI</a>？
+<img src="https://i.imgur.com/zeayALw.png" alt="JNDI arch" width="40%">
 
 <h3>TASK 6</h3>
 Q：What tool do we use to intercept the traffic, indicating the attack was successful?<br>
