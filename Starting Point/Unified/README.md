@@ -26,41 +26,35 @@ A：<code>CVE-2021-44228</code><br>
 
 <h3>TASK 5</h3>
 Q：What protocol does JNDI leverage in the injection?<br>
-A：<code>Apache httpd 2.4.38 ((Debian))</code><br><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Appointment/appointment/nmap.png" alt="nmap" width="60%">
+A：<code>ldap</code><br><br>
 
 <h3>TASK 6</h3>
 Q：What tool do we use to intercept the traffic, indicating the attack was successful?<br>
-A：<code>443</code>
-<img src="https://i.imgur.com/86GNwd6.png" alt="port" width="40%">
+A：<code>tcpdump</code>
 
 <h3>TASK 7</h3>
 Q：What port do we need to inspect intercepted traffic for?<br>
-A：<code>brute-forcing</code><br>
-FYI：<a href="https://www.kaspersky.com/resource-center/definitions/brute-force-attack">Brute Force</a> Attack: Definition and Examples
+A：<code>389</code><br>
 
 <h3>TASK 8</h3>
 Q：What port is the MongoDB service running on?<br>
-A：<code>directory</code>
+A：<code>27117</code>
 
 <h3>TASK 9</h3>
 Q：What is the default database name for UniFi applications?<br>
-A：<code>404</code><br>
-<img src="https://i.imgur.com/cMyKLcV.png" alt="statuscode" width="40%">
+A：<code>ace</code><br>
 
 <h3>TASK 10</h3>
 Q：What is the function we use to enumerate users within the database in MongoDB?<br>
-A：<code>dir</code>
-<br>
-<img src="https://i.imgur.com/qddt7Nw.png" alt="gobuster" width="60%">
+A：<code>db.admin.find()</code><br>
 
 <h3>TASK 11</h3>
 Q：What is the function we use to update users within the database in MongoDB?<br>
-A：<code>#</code>
+A：<code>db.admin.update()</code>
 
 <h3>TASK 12</h3>
 Q：What is the password for the root user?<br>
-A：<code>#</code>
+A：<code></code>
 
 
 <h2>SUBMIT FLAG</h2>
