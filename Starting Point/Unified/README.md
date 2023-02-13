@@ -56,7 +56,7 @@ A：<code>db.admin.update()</code>
 
 <h3>TASK 12</h3>
 Q：What is the password for the root user?<br>
-A：<code></code>
+A：<code>NotACrackablePassword4U2022</code>
 
 
 <h2>SUBMIT FLAG</h2>
