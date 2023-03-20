@@ -2,7 +2,6 @@
 
 <h2>CONNECT</h2>
 Connect to Starting Point VPN before starting the machine<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/download.png" alt="download" width="30%">
 Using <code>openvpn</code> to operate the file of <code>download vpn</code> in kali.
 
 <h2>TASK</h2>
@@ -10,7 +9,7 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 <h3>TASK 1</h3>
 Q：Which TCP port is open on the machine?<br>
 A：<code>6379</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Redeemer/Redeemer/nmaptcp.png" alt="nmaptcp" width="70%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Redeemer/Redeemer/nmaptcp.png" alt="nmaptcp" width="70%">
 <pre class="text">
 Parameter Description
 -p-: All port
@@ -19,7 +18,7 @@ Parameter Description
 <h3>TASK 2</h3>
 Q：Which service is running on the port that is open on the machine?<br>
 A：<code>redis</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Redeemer/Redeemer/nmaptcp.png" alt="nmaptcp" width="70%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Redeemer/Redeemer/nmaptcp.png" alt="nmaptcp" width="70%">
 
 <h3>TASK 3</h3>
 Q：What type of database is Redis?<br>
@@ -44,7 +43,7 @@ A：<code>info</code>
 <h3>TASK 7</h3>
 Q：What is the version of the Redis server being used on the target machine?<br>
 A：<code>5.0.7</code>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Redeemer/Redeemer/redisinfo.png" alt="connect" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Redeemer/Redeemer/redisinfo.png" alt="connect" width="30%">
 
 <h3>TASK 8</h3>
 Q：Which command is used to select the desired database in Redis?<br>
@@ -60,4 +59,4 @@ A：<code>keys *</code>
 
 <h2>SUBMIT FLAG</h2>
 
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Redeemer/Redeemer/flag.png" alt="flag" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Redeemer/Redeemer/flag.png" alt="flag" width="30%">
