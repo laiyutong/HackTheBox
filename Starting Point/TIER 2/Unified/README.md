@@ -59,15 +59,37 @@ A：<code>NotACrackablePassword4U2022</code>
 
 
 <h2>SUBMIT FLAG</h2>
+22, 6789, 8080, 8443 ports are all open.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nmap1.png" alt="nmap1" width="60%">
+
+Open the webpage and go to <target_ip>:<code>8080</code>, you will find that the page automatically jumps to <code>8443</code> port
+Click to accept the risk, you will enter the <code>Unifi</code> Network page.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nmap2.png" alt="nmap2" width="60%">
+
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/webredirect.png" alt="webredirect" width="60%">
+
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/webwarning.png" alt="webwarning" width="60%">
+
+Where there is an account and password to enter, try to log in with SQLi but fail.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/loginpage.png" alt="loginpage" width="60%">
+
+After opening <code>BurpSuite</code>, go to <code>proxy</code> and <code>Open browser</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/BP.png" alt="BP" width="60%">
+
+
+Go back to BurpSuite and <code>turn on</code> intercept ⇒ intercept in on <br>
+(intercept information sent on the web page)<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/intercepton.png" alt="intercepton" width="60%">
+
+Go back to the webpage you just opened, and first enter the account password at will.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/BPbrowser.png" alt="BPbrowser" width="60%">
+
+Back to BurpSuite to see if there are any vulnerabilities that can be exploited.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/BP2.png" alt="BP2" width="60%">
+
+As shown in the figure below, we can see <code>{username:, password:, remember:, strict:}</code> 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/SentToRepeater.png" alt="SentToRepeater" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater.png" alt="Repeater" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/repeaterinvalid.png" alt="repeaterinvalid" width="60%">
