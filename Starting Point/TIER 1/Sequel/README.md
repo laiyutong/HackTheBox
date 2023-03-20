@@ -2,7 +2,6 @@
 
 <h2>CONNECT</h2>
 Connect to Starting Point VPN before starting the machine<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/download.png" alt="download" width="30%">
 Using <code>openvpn</code> to operate the file of <code>download vpn</code> in kali.
 
 <h2>TASK</h2>
@@ -36,12 +35,12 @@ Q：What symbol do we need to end each query with?<br>
 A：<code>；</code>
 
 <h2>SUBMIT FLAG</h2>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/nmap.png" alt="nmap" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/mysqllogin.png" alt="mysqllogin" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/readtable.png" alt="readtable" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/showdb.png" alt="showdb" width="30%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/showtables.png" alt="showtables" width="30%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/showuser.png" alt="showuser" width="30%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/showversion.png" alt="showversion" width="30%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Sequel/Sequel/usedb.png" alt="usedb" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/nmap.png" alt="nmap" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/mysqllogin.png" alt="mysqllogin" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/readtable.png" alt="readtable" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showdb.png" alt="showdb" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showtables.png" alt="showtables" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showuser.png" alt="showuser" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showversion.png" alt="showversion" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/usedb.png" alt="usedb" width="60%">
 
