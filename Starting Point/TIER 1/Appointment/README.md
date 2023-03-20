@@ -2,7 +2,6 @@
 
 <h2>CONNECT</h2>
 Connect to Starting Point VPN before starting the machine<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/download.png" alt="download" width="30%">
 Using <code>openvpn</code> to operate the file of <code>download vpn</code> in kali.
 
 <h2>TASK</h2>
@@ -32,7 +31,7 @@ FYI：<a href="https://www.bitdefender.com/consumer/support/answer/28357/">Prote
 <h3>TASK 5</h3>
 Q：What service and version are running on port 80 of the target?<br>
 A：<code>Apache httpd 2.4.38 ((Debian))</code><br><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Appointment/appointment/nmap.png" alt="nmap" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Appointment/appointment/nmap.png" alt="nmap" width="60%">
 
 <h3>TASK 6</h3>
 Q：What is the standard port used for the HTTPS protocol?<br>
@@ -64,9 +63,9 @@ Q：What symbol do we use to comment out parts of the code?<br>
 A：<code>#</code>
 
 <h2>SUBMIT FLAG</h2>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Appointment/appointment/login1.png" alt="login1" width="30%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Appointment/appointment/login2.png" alt="login2" width="30%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Appointment/appointment/login3.png" alt="login3" width="30%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Appointment/appointment/login4.png" alt="login4" width="30%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Appointment/appointment/flag.png" alt="flag" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Appointment/appointment/login1.png" alt="login1" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Appointment/appointment/login2.png" alt="login2" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Appointment/appointment/login3.png" alt="login3" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Appointment/appointment/login4.png" alt="login4" width="30%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Appointment/appointment/flag.png" alt="flag" width="60%">
 
