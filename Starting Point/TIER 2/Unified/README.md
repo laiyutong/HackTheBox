@@ -2,7 +2,6 @@
 
 <h2>CONNECT</h2>
 Connect to Starting Point VPN before starting the machine<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/download.png" alt="download" width="30%">
 Using <code>openvpn</code> to operate the file of <code>download vpn</code> in kali.
 
 <h2>TASK</h2>
@@ -60,36 +59,24 @@ A：<code>NotACrackablePassword4U2022</code>
 
 
 <h2>SUBMIT FLAG</h2>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/nmap1.png" alt="nmap1" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/nmap2.png" alt="nmap2" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/webredirect.png" alt="webredirect" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/webwarning.png" alt="webwarning" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/loginpage.png" alt="loginpage" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/BP.png" alt="BP" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/intercepton.png" alt="intercepton" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/BPbrowser.png" alt="BPbrowser" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/BP2.png" alt="BP2" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/SentToRepeater.png" alt="SentToRepeater" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/Repeater.png" alt="Repeater" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/repeaterinvalid.png" alt="repeaterinvalid" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/repeaterinvalid2.png" alt="repeaterinvalid2" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/Repeater2.png" alt="Repeater2" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/tcpdump.png" alt="tcpdump" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/tcpdump2.png" alt="tcpdump2" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Unified/Unified/tcpdump3.png" alt="tcpdump3" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nmap1.png" alt="nmap1" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nmap2.png" alt="nmap2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/webredirect.png" alt="webredirect" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/webwarning.png" alt="webwarning" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/loginpage.png" alt="loginpage" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/BP.png" alt="BP" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/intercepton.png" alt="intercepton" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/BPbrowser.png" alt="BPbrowser" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/BP2.png" alt="BP2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/SentToRepeater.png" alt="SentToRepeater" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater.png" alt="Repeater" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/repeaterinvalid.png" alt="repeaterinvalid" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/repeaterinvalid2.png" alt="repeaterinvalid2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater2.png" alt="Repeater2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump.png" alt="tcpdump" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump2.png" alt="tcpdump2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump3.png" alt="tcpdump3" width="60%">
 
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
 
 PS parameter description
 <pre text="class">
