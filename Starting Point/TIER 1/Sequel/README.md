@@ -40,6 +40,10 @@ A：<code>；</code>
 <code>mysql -h <target_ip> -u root</code><br>
 Login as root<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/mysqllogin.png" alt="mysqllogin" width="60%"><br>
+  
+<code>select version();</code><br>
+Check database version<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showversion.png" alt="showversion" width="30%"><br>
 
 <code>show databases;</code><br>
 See what databases are available<br>
@@ -48,14 +52,10 @@ See what databases are available<br>
 <code>show tables;</code><br>
 See what tables are available<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showtables.png" alt="showtables" width="30%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showuser.png" alt="showuser" width="30%"><br>
 
-<code>select * from <tables>;</code>
-Read the information in the table<br>
+<code>select * from <tables>;</code><br>
+Read the information in the table and you'll see the flag！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/readtable.png" alt="readtable" width="60%"><br>
 
-<code>select version();</code><br>
-Check database version<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showversion.png" alt="showversion" width="30%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/usedb.png" alt="usedb" width="60%">
+
 
