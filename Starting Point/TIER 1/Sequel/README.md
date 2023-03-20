@@ -53,7 +53,7 @@ See what databases are available<br>
 See what tables are available<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/showtables.png" alt="showtables" width="30%"><br>
 
-<code>select * from 	&lt;tables&gt;;</code><br>
+<code>select * from &lt;tables&gt;;</code><br>
 Read the information in the table and you'll see the flag！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%201/Sequel/Sequel/readtable.png" alt="readtable" width="60%"><br>
 
