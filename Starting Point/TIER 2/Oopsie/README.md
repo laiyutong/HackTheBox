@@ -94,7 +94,7 @@ Change the <code>ip</code> and the <code>port</code> in <code>/usr/share/webshel
 First open a new <code>nc</code> window, then go to the web page URL and enter <code>http://&lt;target_ip&gt;/uploads/php-reverse-shell.php</code>.<br>
 Go back to <code>nc</code> window to get shell.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/nc.png" alt="nc" width="60%"><br>
-
+Using <code>python3 -c 'import pty;pty.spawn("/bin/bash")'</code> to get <code>interactive</code> shell.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/user.txt.png" alt="user.txt" width="60%"><br>
 
 <h3>Laveral Movement</h3>
