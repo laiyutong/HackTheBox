@@ -95,6 +95,7 @@ First open a new <code>nc</code> window, then go to the web page URL and enter <
 Go back to <code>nc</code> window to get shell.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/nc.png" alt="nc" width="60%"><br>
 Using <code>python3 -c 'import pty;pty.spawn("/bin/bash")'</code> to get <code>interactive</code> shell.<br>
+You can find the <code>user.txt</code> in <code>/home/robert</code>！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/user.txt.png" alt="user.txt" width="60%"><br>
 
 <h3>Laveral Movement</h3>
