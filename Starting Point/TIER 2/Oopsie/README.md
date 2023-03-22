@@ -58,13 +58,26 @@ Go back to webpage and add the postfix <code>/cdn-cgi/login</code> to the URL.<b
 It will display a login page, we do not have account yet, so click <code>Login as Guest</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/loginpage.png" alt="loginpage" width="60%"><br>
 
+After clicking "Login as Guest", it will be as shown in the figure below.<br>
+Click the menu in the upper right corner, and you can click "Account", "Branding", "Clients", "Uploads" at will, first click "Account".<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/menu_account.png" alt="menu_account" width="60%"><br>
 
-
+It is obvious that there is an <code>id=2</code> in the URL part, try to replace it with <code>id=1</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/id%3D2.png" alt="id_2" width="60%"><br>
+
+It can be found that the Access ID becomes <code>34322</code>, and the Name becomes <code>admin</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/id%3D1.png" alt="id_1" width="60%"><br>
+
+Use <code>dirsearch</code> or <code>gobuster</code> to traverse the web to find where the shell can be uploaded.<br>
+<code>dirsearch -u &lt;target_ip&gt; -e php</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/dirsearch.png" alt="dirsearch" width="50%"><br>
+<code>gobuster dir -u &lt;target_ip&gt; -w /usr/share/dirb/wordlists/common.txt -x .php</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/gobuster.png" alt="gobuster" width="50%"><br>
+
+Go to http://<ip>/uploads and you will see "This action requires super admin rights".<br>
+It is thought that it may be related to the Access ID/Name in the account just now.<br>
+It's might have something to do with cookies.<br>
+Open <code>Devtools</code> ⇒ <code>storage</code> ⇒ <code>cookie</code>, and see the current value: <code>guest/2233</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/Dev_storage.png" alt="Dev_storage" width="60%"><br>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/Dev_admin.png" alt="Dev_admin" width="60%"><br>
