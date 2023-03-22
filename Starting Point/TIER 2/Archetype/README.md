@@ -46,22 +46,34 @@ A：<code>ConsoleHost_history.txt</code><br>
 See two important ports are 445 port and 1433 port.<br>
 <img src="https://i.imgur.com/yv7T521.png" alt="nmap" width="60%">
 
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/smbclient.png" alt="smbclient" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/smbclient3.png" alt="smbclient3" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/password.png" alt="password" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/mssqlclient.png" alt="mssqlclient" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/MSSQLauth.png" alt="MSSQLauth" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLhelp.png" alt="SQLhelp" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLrole.png" alt="SQLrole" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/netuser.png" alt="netuser" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLconfigure.png" alt="SQLconfigure" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLcondigure2.png" alt="SQLcondigure2" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLwhoami.png" alt="SQLwhoami" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/nc.png" alt="nc" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/httpserver.png" alt="httpserver" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/userflag.png" alt="userflag" width="40%">
+
 
 <code>python3 mssqlclient.py ARCHETYPE/sql_svc:&lt;passwd&gt;@&lt;TARGET IP&gt; -windows-auth</code><br><br>
 
