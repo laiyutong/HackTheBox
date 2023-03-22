@@ -68,9 +68,9 @@ It can be found that the Access ID becomes <code>34322</code>, and the Name beco
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/id%3D1.png" alt="id_1" width="60%">
 
 Use <code>dirsearch</code> or <code>gobuster</code> to traverse the web to find where the shell can be uploaded.<br>
-<code>dirsearch -u &lt;target_ip&gt; -e php</code><br>
+<b>cmd</b>：<code>dirsearch -u &lt;target_ip&gt; -e php</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/dirsearch.png" alt="dirsearch" width="50%"><br>
-<code>gobuster dir -u &lt;target_ip&gt; -w /usr/share/dirb/wordlists/common.txt -x .php</code><br>
+<b>cmd</b>：<code>gobuster dir -u &lt;target_ip&gt; -w /usr/share/dirb/wordlists/common.txt -x .php</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/gobuster.png" alt="gobuster" width="50%"><br>
 
 Go to <code>http://&lt;target_ip&gt;/uploads</code> and you will see "This action requires super admin rights".<br>
@@ -99,7 +99,13 @@ You can find the <code>user.txt</code> in <code>/home/robert</code>！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/user.txt.png" alt="user.txt" width="60%"><br>
 
 <h3>Laveral Movement</h3>
+Neither sudo -l nor su robert login has sufficient credentials or password.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/sudofail.png" alt="sudofail" width="60%"><br>
+
+Continue to find useful information first, because there is not much information.<br>
+cd <code>/var/www/html</code> ⇒ cd <code>/cdn-cgi</code> ⇒ cd <code>/login</code> <br>
+From the relevant location of the web page, you can see that there are four files under login,<br>
+and <code>db.php</code> provides the account secret：<code>robert：M3g4C0rpUs3r!</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/robert.png" alt="robert" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/ssh.png" alt="ssh" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/llbugtracker.png" alt="llbugtracker" width="40%"><br>
