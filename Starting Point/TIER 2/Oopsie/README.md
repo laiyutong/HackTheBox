@@ -51,22 +51,21 @@ A：<code>cat</code><br><br>
 <h2>SUBMIT FLAG</h2>
 The <code>port 22(SSH)</code> and <code>port 80(HTTP)</code> are open, therefore, we visit the IP by using the web browser.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/nmap.png" alt="nmap" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/website.png" alt="website" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/website.png" alt="website" width="60%">
 We can find there is a directory <code>/cdn-cgi/login</code> by using <code>BurpSuite</code>.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/burpsuite.png" alt="burpsuite" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/burpsuite.png" alt="burpsuite" width="60%">
 Go back to webpage and add the postfix <code>/cdn-cgi/login</code> to the URL.<br>
 It will display a login page, we do not have account yet, so click <code>Login as Guest</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/loginpage.png" alt="loginpage" width="60%"><br>
-
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/loginpage.png" alt="loginpage" width="60%">
 After clicking "Login as Guest", it will be as shown in the figure below.<br>
 Click the menu in the upper right corner, and you can click "Account", "Branding", "Clients", "Uploads" at will, first click "Account".<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/menu_account.png" alt="menu_account" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/menu_account.png" alt="menu_account" width="60%">
 
 It is obvious that there is an <code>id=2</code> in the URL part, try to replace it with <code>id=1</code>.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/id%3D2.png" alt="id_2" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/id%3D2.png" alt="id_2" width="60%">
 
 It can be found that the Access ID becomes <code>34322</code>, and the Name becomes <code>admin</code>.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/id%3D1.png" alt="id_1" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/id%3D1.png" alt="id_1" width="60%">
 
 Use <code>dirsearch</code> or <code>gobuster</code> to traverse the web to find where the shell can be uploaded.<br>
 <code>dirsearch -u &lt;target_ip&gt; -e php</code><br>
@@ -80,6 +79,9 @@ It's might have something to do with cookies.<br>
 Open <code>Devtools</code> ⇒ <code>storage</code> ⇒ <code>cookie</code>, and see the current value: <code>guest/2233</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/Dev_storage.png" alt="Dev_storage" width="60%"><br>
 
+Replace value with：<code>admin/34322</code> and refresh the page,
+you can see that the left part of the page allows us to upload files.<br>
+Then you can <code>upload the reverse shell</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/Dev_admin.png" alt="Dev_admin" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/reverseshell.png" alt="reverseshell" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/changeip_port.png" alt="changeip_port" width="30%"><br>
