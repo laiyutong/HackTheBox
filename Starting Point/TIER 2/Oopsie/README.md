@@ -86,10 +86,10 @@ Then you can <code>upload the reverse shell</code>.<br>
 
 Usually the location of the webshell on this machine will be <code>/usr/share/webshells</code>.<br>
 The reverse shell to be used here will be under <code>/usr/share/webshells/php</code>.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/reverseshell.png" alt="reverseshell" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/reverseshell.png" alt="reverseshell" width="60%"><br>
 Change the <code>ip</code> and the <code>port</code> in <code>/usr/share/webshells/php/php-reverse-shell.php</code>.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/changeip_port.png" alt="changeip_port" width="30%">
-Upload the newly changed php-reverse-shell.php to the webpage.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/changeip_port.png" alt="changeip_port" width="30%"><br>
+<code>Upload</code> the newly changed php-reverse-shell.php to the webpage.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/uploaded.png" alt="uploaded" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/nc.png" alt="nc" width="60%"><br>
 
