@@ -118,13 +118,13 @@ Use <code>ls -al bugtracker</code> to find that user has suid permissions.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/llbugtracker.png" alt="llbugtracker" width="60%"><br>
 Found that bugtracker is an <code>executable</code> program.<br>
 No matter what is entered after provide Bug ID, the result will be output as <code>cat /root/reports</code>.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/robert_locate_bugtracker.png" alt="robert_locate_bugtracker" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/bugtracker_hello.png" alt="bugtracker_hello" width="40%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/robert_locate_bugtracker.png" alt="robert_locate_bugtracker" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/bugtracker_hello.png" alt="bugtracker_hello" width="40%">
 
 Normally, calling <code>cat</code> should be under <code>/bin</code>.<br>
 From this info we know that we can create a <code>malicious cat command</code>,<br>
 but first replace the path of <code>EXPORT</code> (environment variable).<br>
-Here, set the <code>/tmp</code> directory as the current environment variable, and then switch to the /tmp directory.<br><br>
+Here, set the <code>/tmp</code> directory as the current environment variable, and then switch to the /tmp directory.<br>
 
 Create a malicious cat command <code>/bin/sh</code> and give the cat execution permission,<br>
 when bugtracker is executed, cat under <code>/tmp</code> will be executed,
