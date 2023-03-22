@@ -79,12 +79,17 @@ It's might have something to do with cookies.<br>
 Open <code>Devtools</code> ⇒ <code>storage</code> ⇒ <code>cookie</code>, and see the current value: <code>guest/2233</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/Dev_storage.png" alt="Dev_storage" width="60%"><br>
 
-Replace value with：<code>admin/34322</code> and refresh the page,
+Replace value with：<code>admin/34322</code> and refresh the page,<br>
 you can see that the left part of the page allows us to upload files.<br>
 Then you can <code>upload the reverse shell</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/Dev_admin.png" alt="Dev_admin" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/reverseshell.png" alt="reverseshell" width="60%"><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/changeip_port.png" alt="changeip_port" width="30%"><br>
+
+Usually the location of the webshell on this machine will be <code>/usr/share/webshells</code>.<br>
+The reverse shell to be used here will be under <code>/usr/share/webshells/php</code>.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/reverseshell.png" alt="reverseshell" width="60%">
+Change the <code>ip</code> and the <code>port</code> in <code>/usr/share/webshells/php/php-reverse-shell.php</code>.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/changeip_port.png" alt="changeip_port" width="30%">
+Upload the newly changed php-reverse-shell.php to the webpage.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/uploaded.png" alt="uploaded" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/nc.png" alt="nc" width="60%"><br>
 
