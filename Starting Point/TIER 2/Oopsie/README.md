@@ -100,7 +100,7 @@ You can find the <code>user.txt</code> in <code>/home/robert</code>！<br>
 
 <h3>Laveral Movement</h3>
 Neither sudo -l nor su robert login has sufficient credentials or password.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/sudofail.png" alt="sudofail" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/sudofail.png" alt="sudofail" width="40%">
 Continue to find useful information first, because there is not much information.<br>
 cd <code>/var/www/html</code> ⇒ cd <code>/cdn-cgi</code> ⇒ cd <code>/login</code> <br>
 From the relevant location of the web page, you can see that there are four files under login,<br>
@@ -115,10 +115,21 @@ After successful login, enter the id to find that the groups except 1000(robert)
 there is also a <code>1001 (bugtracker)</code>, further research on bugtracker.<br><br>
 Use <code>ls -al bugtracker</code> to find that user has suid permissions.<br>
 <code>suid</code> means that it can be executed with the <code>highest authority (root)</code>.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/llbugtracker.png" alt="llbugtracker" width="40%"><br>
-
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/llbugtracker.png" alt="llbugtracker" width="60%"><br>
+Found that bugtracker is an <code>executable</code> program.<br>
+No matter what is entered after provide Bug ID, the result will be output as <code>cat /root/reports</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/robert_locate_bugtracker.png" alt="robert_locate_bugtracker" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/bugtracker_hello.png" alt="bugtracker_hello" width="40%"><br>
+
+Normally, calling <code>cat</code> should be under <code>/bin</code>.<br>
+From this info we know that we can create a <code>malicious cat command</code>,<br>
+but first replace the path of <code>EXPORT</code> (environment variable).<br>
+Here, set the <code>/tmp</code> directory as the current environment variable, and then switch to the /tmp directory.<br><br>
+
+Create a malicious cat command <code>/bin/sh</code> and give the cat execution permission,<br>
+when bugtracker is executed, cat under <code>/tmp</code> will be executed,
+permissions will change from robert to root.<br>
+You can get the root.txt under /root.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/previledgeupdate.png" alt="previledgeupdate" width="60%"><br>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/root.txt2.png" alt="root.txt2" width="40%"><br>
