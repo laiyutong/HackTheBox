@@ -90,7 +90,7 @@ RECONFIGURE;
 
 Now we are able to execute system commands:<br>
 <b>cmd</b>：<code>xp_cmdshell "whoami"</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLwhoami.png" alt="SQLwhoami" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLwhoami.png" alt="SQLwhoami" width="60%"><br>
 Now, we will attempt to get a stable reverse shell.<br><br>
 We will upload the <code>nc64.exe</code> binary to the target machine and execute an interactive cmd.exe process on our listening port.<br>
 You can download the binary from <a href="https://github.com/int0x33/nc.exe/blob/master/nc64.exe?source=post_page-----a2ddc3557403----------------------">here</a>.<br>
