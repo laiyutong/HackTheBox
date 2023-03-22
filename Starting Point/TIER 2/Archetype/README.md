@@ -45,13 +45,22 @@ A：<code>ConsoleHost_history.txt</code><br>
 <h2>SUBMIT FLAG</h2>
 See two important ports are 445 port and 1433 port.<br>
 <img src="https://i.imgur.com/yv7T521.png" alt="nmap" width="60%">
-
+Using smbclient to browse shared folders.<br>
+<b>cmd</b>：<code>smbclient -L &lt;target_ip&gt;</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/smbclient.png" alt="smbclient" width="60%">
 
+There are many similarities with ftp commands in smbclient, such as: cd, ls, get, put...<br>
+You can also use <code>help</code> to view commands.<br><br>
+Once in the backups folder, use <code>ls</code> to view the current directory.<br>
+Using <code>get</code> command to download the <code>prod.dtsConfig</code>.<br>
+<b>cmd</b>：<code>smbclient -N //&lt;target_ip&gt;/backups</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/smbclient3.png" alt="smbclient3" width="60%">
 
+<code>cat</code> the data in <code>prod.dtsConfig</code>, it can be found that the password of the user sql_svc is <code>M3g4c0rp123</code>, and the host is <code>ARCHETYPE</code>.<br>
+The information provided in prog.dtsConfig allows us to connect and successfully authenticate into the <code>MSSQL server</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/password.png" alt="password" width="60%">
 
+There are many python scripts in <a href="https://github.com/fortra/impacket">Impacket</a> for us to use, and what will be used here is <a href="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/mssqlclient.py> mssqlclient.py</a>.
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/mssqlclient.png" alt="mssqlclient" width="60%">
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/MSSQLauth.png" alt="MSSQLauth" width="60%">
