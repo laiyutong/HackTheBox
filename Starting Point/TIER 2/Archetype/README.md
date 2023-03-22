@@ -117,7 +117,7 @@ It is possible to download winpeas from <a href="https://github.com/carlospolop/
 We will transfer it to our target system by using once more the Python HTTP server:<br>
 <b>cmd</b>：<code>python3 -m http.server 80</code><br><br>
 
-On the target machine, we will execute the <code?wget</code> command in order to download the program from our
+On the target machine, we will execute the <code>wget</code> command in order to download the program from our
 system.<br>
 The file will be downloaded in the directory from which the wget command was run.<br>
 We will use powershell for all our commands:<br>
