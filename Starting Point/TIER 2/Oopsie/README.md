@@ -98,7 +98,7 @@ Using <code>python3 -c 'import pty;pty.spawn("/bin/bash")'</code> to get <code>i
 You can find the <code>user.txt</code> in <code>/home/robert</code>！<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/user.txt.png" alt="user.txt" width="60%"><br>
 
-<h3>Laveral Movement</h3>
+<h2>Laveral Movement</h2>
 Neither sudo -l nor su robert login has sufficient credentials or password.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/sudofail.png" alt="sudofail" width="40%">
 Continue to find useful information first, because there is not much information.<br>
