@@ -105,12 +105,12 @@ Continue to find useful information first, because there is not much information
 cd <code>/var/www/html</code> ⇒ cd <code>/cdn-cgi</code> ⇒ cd <code>/login</code> <br>
 From the relevant location of the web page, you can see that there are four files under login,<br>
 and <code>db.php</code> provides the account secret：<code>robert：M3g4C0rpUs3r!</code><br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/robert.png" alt="robert" width="60%"><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/robert.png" alt="robert" width="60%">
 Try the login method above again, but still can't log in successfully.<br>
 It's possible that this login method is denied/not available, so let's try another method.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/ssh.png" alt="ssh" width="60%"><br>
 Recall that the ip has <code>port 22</code> open, so try to use ssh to log in to the account of the robert.<br>
 Connection method: <code>ssh &lt;account_name&gt;@&lt;target_ip&gt;</code><br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/ssh.png" alt="ssh" width="60%"><br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/llbugtracker.png" alt="llbugtracker" width="40%"><br>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/robert_locate_bugtracker.png" alt="robert_locate_bugtracker" width="60%"><br>
