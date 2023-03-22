@@ -100,8 +100,7 @@ You can find the <code>user.txt</code> in <code>/home/robert</code>！<br>
 
 <h3>Laveral Movement</h3>
 Neither sudo -l nor su robert login has sufficient credentials or password.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/sudofail.png" alt="sudofail" width="60%"><br>
-
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/sudofail.png" alt="sudofail" width="60%">
 Continue to find useful information first, because there is not much information.<br>
 cd <code>/var/www/html</code> ⇒ cd <code>/cdn-cgi</code> ⇒ cd <code>/login</code> <br>
 From the relevant location of the web page, you can see that there are four files under login,<br>
