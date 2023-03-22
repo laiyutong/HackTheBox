@@ -75,7 +75,7 @@ Use <code>dirsearch</code> or <code>gobuster</code> to traverse the web to find 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/gobuster.png" alt="gobuster" width="50%"><br>
 
 Go to <code>http://&lt;target_ip&gt;/uploads</code> and you will see "This action requires super admin rights".<br>
-It is thought that it may be related to the Access ID/Name in the account just now.<br>
+It is thought that it may be related to the <code>Access ID/Name</code> in the account just now.<br>
 It's might have something to do with cookies.<br>
 Open <code>Devtools</code> ⇒ <code>storage</code> ⇒ <code>cookie</code>, and see the current value: <code>guest/2233</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/Dev_storage.png" alt="Dev_storage" width="60%"><br>
