@@ -91,6 +91,8 @@ Change the <code>ip</code> and the <code>port</code> in <code>/usr/share/webshel
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/changeip_port.png" alt="changeip_port" width="30%"><br>
 <code>Upload</code> the newly changed php-reverse-shell.php to the webpage.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/uploaded.png" alt="uploaded" width="60%"><br>
+First open a new <code>nc</code> window, then go to the web page URL and enter <code>http://&lt;target_ip&gt;/uploads/php-reverse-shell.php</code>.<br>
+Go back to <code>nc</code> window to get shell.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/nc.png" alt="nc" width="60%"><br>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Oopsie/Oopsie/user.txt.png" alt="user.txt" width="60%"><br>
