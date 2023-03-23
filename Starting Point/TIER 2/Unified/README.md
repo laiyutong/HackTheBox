@@ -113,7 +113,7 @@ Despite an invalid message is displayed, in fact, the payload is still being exe
 Double authentication can be done by using <code>tcpdump</code>.<br>
 Open a window and enter <code>tcpdump -i tun0</code> command before Send Request in BurpSuite.<br>
 The result is shown in the picture below, there will be a bunch of information,<br>
-indicating that the JNDI command was successfully executed and connected to our local machine.<br>
+indicating that the <code>JNDI</code> command was <code>successfully executed</code> and connected to our local machine.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump.png" alt="tcpdump" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump2.png" alt="tcpdump2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump3.png" alt="tcpdump3" width="60%">
