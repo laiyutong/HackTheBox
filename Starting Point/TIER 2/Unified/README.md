@@ -136,7 +136,7 @@ If the target is really vulnerable, after the injection is executed, it will con
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/loginsuccess.png" alt="loginsuccess" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/rootpasswd.png" alt="rootpasswd" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/ssh.png" alt="ssh" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/root.txt.png" alt="root.txt" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/root.txt.png" alt="root.txt" width="40%">
 <img src="" alt="" width="60%">
 
 PS parameter description
