@@ -91,7 +91,7 @@ Back to BurpSuite to see if there are any vulnerabilities that can be exploited.
 
 As shown in the figure below, we can see <code>{username:, password:, remember:, strict:}</code><br> 
 <code>Right click</code>  on BurpSuite page ⇒ <code>send to repeater</code><br> 
-FYI：<a href="https://portswigger.net/burp/documentation/desktop/tools/repeater">Burp Repeater</a>
+FYI：<a href="https://portswigger.net/burp/documentation/desktop/tools/repeater">Burp Repeater</a><br> 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/SentToRepeater.png" alt="SentToRepeater" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater.png" alt="Repeater" width="60%">
 Go to <code>Repeater</code> and press <code>Send</code> to see detailed information about the web page Response.<br>
