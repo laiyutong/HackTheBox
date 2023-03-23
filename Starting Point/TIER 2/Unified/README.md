@@ -121,7 +121,23 @@ For a further look, use tcpdump to monitor your own 389 port.<br>
 <b>cmd</b>：<code>tcpdump -i tun0 port 389</code><br>
 If the target is really vulnerable, after the injection is executed, it will connect to our ldap (389 port).<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump3.png" alt="tcpdump3" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/version.png" alt="version" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/exploit.py.png" alt="exploit" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc1.png" alt="nc1" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc2.png" alt="nc2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/user.txt.png" alt="user.txt" width="60%">
 
+<h2>Privilege Escalation</h2>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/psaux_mongo.png" alt="psaux_mongo" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mongo2.png" alt="mongo2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mkpasswd.png" alt="mkpasswd" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mongo3.png" alt="mongo3" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/login2.png" alt="login2" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/loginsuccess.png" alt="loginsuccess" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/rootpasswd.png" alt="rootpasswd" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/ssh.png" alt="ssh" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/root.txt.png" alt="root.txt" width="60%">
+<img src="" alt="" width="60%">
 
 PS parameter description
 <pre text="class">
