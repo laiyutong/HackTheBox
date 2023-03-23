@@ -125,7 +125,7 @@ If the target is really vulnerable, after the injection is executed, it will con
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/exploit.py.png" alt="exploit" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc1.png" alt="nc1" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc2.png" alt="nc2" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/user.txt.png" alt="user.txt" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/user.txt.png" alt="user.txt" width="40%">
 
 <h2>Privilege Escalation</h2>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/psaux_mongo.png" alt="psaux_mongo" width="60%">
