@@ -144,7 +144,12 @@ Traverse the directory to get user.txt！
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/user.txt.png" alt="user.txt" width="40%">
 
 <h2>Privilege Escalation</h2>
+The article states we can get access to the administrator panel of the UniFi application and possibly extract
+SSH secrets used between the appliances.<br>
+First let's check if MongoDB is running on the target system, which might make it possible for us to extract credentials in order to login to the administrative panel.<br>
+<b>cmd</b>：<code>ps aux | grep mongo</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/psaux_mongo.png" alt="psaux_mongo" width="60%">
+We can see MongoDB is running on the target system on port <code>27117</code>.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mongo2.png" alt="mongo2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mkpasswd.png" alt="mkpasswd" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mongo3.png" alt="mongo3" width="60%">
