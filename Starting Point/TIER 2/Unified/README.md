@@ -150,9 +150,9 @@ First let's check if MongoDB is running on the target system, which might make i
 <b>cmd</b>：<code>ps aux | grep mongo</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/psaux_mongo.png" alt="psaux_mongo" width="60%">
 We can see MongoDB is running on the target system on port <code>27117</code>.<br><br>
-Let's interact with the MongoDB service by making use of the mongo command line utility and attempting to
+Let's interact with the MongoDB service by making use of the <code>mongo</code> command line utility and attempting to
 extract the administrator password.<br>
-A quick Google search using the keywords UniFi Default Database shows that the default database name for the UniFi application is ace.<br>
+A quick Google search using the keywords <code>UniFi Default Database</code> shows that the default database name for the UniFi application is <code>ace</code>.<br>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mongo2.png" alt="mongo2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mkpasswd.png" alt="mkpasswd" width="60%">
