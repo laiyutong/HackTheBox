@@ -149,7 +149,11 @@ SSH secrets used between the appliances.<br>
 First let's check if MongoDB is running on the target system, which might make it possible for us to extract credentials in order to login to the administrative panel.<br>
 <b>cmd</b>：<code>ps aux | grep mongo</code>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/psaux_mongo.png" alt="psaux_mongo" width="60%">
-We can see MongoDB is running on the target system on port <code>27117</code>.<br>
+We can see MongoDB is running on the target system on port <code>27117</code>.<br><br>
+Let's interact with the MongoDB service by making use of the mongo command line utility and attempting to
+extract the administrator password.<br>
+A quick Google search using the keywords UniFi Default Database shows that the default database name for the UniFi application is ace.<br>
+
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mongo2.png" alt="mongo2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mkpasswd.png" alt="mkpasswd" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mongo3.png" alt="mongo3" width="60%">
