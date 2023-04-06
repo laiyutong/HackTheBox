@@ -153,6 +153,7 @@ We can see MongoDB is running on the target system on port <code>27117</code>.<b
 Let's interact with the MongoDB service by making use of the <code>mongo</code> command line utility and attempting to
 extract the administrator password.<br>
 A quick Google search using the keywords <code>UniFi Default Database</code> shows that the default database name for the UniFi application is <code>ace</code>.<br>
+<b>cmd</b>：<code>mongo --port 27117 ace --eval "db.admin.find().forEach(printjson);"`</code>
 
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mongo2.png" alt="mongo2" width="60%">
 <img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/TIER%202/Unified/Unified/mkpasswd.png" alt="mkpasswd" width="60%">
