@@ -8,5 +8,5 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 <img src="https://i.imgur.com/mEd8s5o.png" alt="nmap" width=60%>
 <img src="https://i.imgur.com/xnUh3pI.png" alt="404" width=60%>
 <img src="https://i.imgur.com/eLrpqIR.png" alt="/etc/hosts" width=60%>
-<img src="" alt="" width=60%>
+<img src="https://i.imgur.com/kgRRvvz.png" alt="search.htb" width=60%>
 <img src="" alt="" width=60%>
