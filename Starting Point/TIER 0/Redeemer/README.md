@@ -20,6 +20,7 @@ Q：What type of database is Redis? Choose from the following options:<br>
 (i) In-memory Database<br>
 (ii) Traditional Database<br>
 A：<code>In-memory Database</code><br>
+FYI：<a href="https://redis.io/">What is Redis?</a>
 
 <h3>TASK 4</h3>
 Q：Which command-line utility is used to interact with the Redis server?<br>
