@@ -9,6 +9,7 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 <h3>TASK 1</h3>
 Q：Which TCP port is open on the machine?<br>
 A：<code>6379</code><br>
+<img src="https://i.imgur.com/B3YRa5K.png" alt="nmap" width="60%">
 
 <h3>TASK 2</h3>
 Q：Which service is running on the port that is open on the machine?<br>
@@ -51,7 +52,7 @@ A：<code>keys *</code>
 
 
 <h2>SUBMIT FLAG</h2>
-<img src="" alt="" width="60%">
+<img src="https://i.imgur.com/B3YRa5K.png" alt="nmap" width="60%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
