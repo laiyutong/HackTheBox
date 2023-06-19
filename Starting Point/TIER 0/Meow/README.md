@@ -19,6 +19,7 @@ FYI：<a href="https://www.computerhope.com/jargon/t/terminal.htm">What is termi
 <h3>TASK 3</h3>
 Q：What service do we use to form our VPN connection into HTB labs?<br>
 A：<code>openvpn</code><br>
+FYI：<a href="https://www.proofpoint.com/us/threat-reference/vpn">What is VPN?</a>
 
 <h3>TASK 4</h3>
 Q：What is the abbreviated name for a 'tunnel interface' in the output of your VPN boot-up sequence output?<br>
