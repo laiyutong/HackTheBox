@@ -14,6 +14,7 @@ FYI：<a href="https://www.vmware.com/topics/glossary/content/virtual-machine.ht
 <h3>TASK 2</h3>
 Q：What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection?<br> It's also known as a console or shell.<br>
 A：<code>terminal</code><br>
+FYI：<a href="https://www.computerhope.com/jargon/t/terminal.htm">What is terminal?</a>
 
 <h3>TASK 3</h3>
 Q：What service do we use to form our VPN connection into HTB labs?<br>
