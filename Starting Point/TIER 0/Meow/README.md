@@ -43,11 +43,14 @@ A：<code>telnet</code>
 <h3>TASK 8</h3>
 Q：What username is able to log into the target over telnet with a blank password?<br>
 A：<code>root</code>
-<img src="https://i.imgur.com/zoCsgEf.png" alt="telnet" width="60%">
 
 <h2>SUBMIT FLAG</h2>
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
-<img src="" alt="" width="60%">
+First, using <code>nmap &lt;TARGET_IP&gt;</code> to find useful port.<br>
+Only <code>23 port (telnet)</code> is open.<br>
+<img src="https://i.imgur.com/V9zdcPJ.png" alt="nmap" width="60%">
+You can connect to remote ip with <code>root</code> by using <code>telnet &lt;TARGET_IP&gt;</code>.
+<img src="https://i.imgur.com/zoCsgEf.png" alt="telnet" width="60%">
+You can use <code>help</code> to see the commands.
+After entering <code>ls</code>, you can see there is a flag.txt.<br>
+Finally, you can use <code>cat</code> to get flag！
+<img src="https://i.imgur.com/RHLwvUE.png" alt="getflag" width="60%">
