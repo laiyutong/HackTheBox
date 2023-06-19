@@ -62,7 +62,7 @@ A：<code>get</code>
 
 <h2>SUBMIT FLAG</h2>
 Using name：<code>anonymous</code> and password：<code>NULL</code> to login.
-<img src="https://github.com/laiyutong/HackTheBox/blob/main/Starting%20Point/Fawn/Fawn/FTP.png" alt="FTP" width="40%">
+<img src="https://i.imgur.com/2Xpbauv.png" alt="FTP" width="40%">
 You can try <code>ls</code> to see if anything exists.
 Apparently, there exists a <code>flag.txt</code> as shown below,<br>
 we need to do is find a way to get the content of the flag.txt.
