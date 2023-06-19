@@ -31,8 +31,8 @@ A：<code>ping</code>
 
 <h3>TASK 6</h3>
 Q：What is the name of the most common tool for finding open ports on a target?<br>
-A：<code>nmap</code>
-<code>nmap -sV &lt;IP&gt;</code>
+A：<code>nmap</code><br>
+<b>cmd</b：><code>nmap -sV &lt;IP&gt;</code><br>
 <img src="https://i.imgur.com/V9zdcPJ.png" alt="nmap" width="60%">
 
 <h3>TASK 7</h3>
