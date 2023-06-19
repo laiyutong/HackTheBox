@@ -43,9 +43,9 @@ A：<code>telnet</code>
 <h3>TASK 8</h3>
 Q：What username is able to log into the target over telnet with a blank password?<br>
 A：<code>root</code>
+<img src="https://i.imgur.com/zoCsgEf.png" alt="telnet" width="60%">
 
 <h2>SUBMIT FLAG</h2>
-<img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
