@@ -32,10 +32,13 @@ A：<code>ping</code>
 <h3>TASK 6</h3>
 Q：What is the name of the most common tool for finding open ports on a target?<br>
 A：<code>nmap</code>
+<code>nmap -sV &lt;IP&gt;</code>
+<img src="https://i.imgur.com/V9zdcPJ.png" alt="nmap" width="60%">
 
 <h3>TASK 7</h3>
 Q：What service do we identify on port 23/tcp during our scans?<br>
 A：<code>telnet</code>
+<img src="https://i.imgur.com/V9zdcPJ.png" alt="nmap" width="60%">
 
 <h3>TASK 8</h3>
 Q：What username is able to log into the target over telnet with a blank password?<br>
