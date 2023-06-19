@@ -9,6 +9,7 @@ Using <code>openvpn</code> to operate the file of <code>download vpn</code> in k
 <h3>TASK 1</h3>
 Q：What does the acronym VM stand for?<br>
 A：<code>Virtual Machine</code><br>
+FYI：<a href="https://www.vmware.com/topics/glossary/content/virtual-machine.html">What is VM?</a>
 
 <h3>TASK 2</h3>
 Q：What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection?<br> It's also known as a console or shell.<br>
