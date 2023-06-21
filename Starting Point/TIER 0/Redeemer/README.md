@@ -103,7 +103,7 @@ A：<code>keys *</code><br>
 Connect to a remote server on the default port (6379) by using <code>redis-cli -h &lt;TARGET_IP&gt;</code>.<br>
 Entering <code>info</code> to get information and statistics about the Redis server.<br>
 <img src="https://i.imgur.com/E8dJoR6.png" alt="redis-info" width="60%">
-In Redis, the term <code>keyspace</code> refers to the logical division of the keys in a Redis database.br>
+In Redis, the term <code>keyspace</code> refers to the logical division of the keys in a Redis database.<br>
 It represents the collection of all the keys and their associated data stored in Redis.<br><br>
 The SELECT command in redis-cli allows you to switch to a different database by specifying the database index as an argument.<br>
 The syntax of the SELECT command is as follows:<br>
