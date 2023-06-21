@@ -100,6 +100,6 @@ A：<code>keys *</code><br>
 <h2>SUBMIT FLAG</h2>
 <img src="https://i.imgur.com/B3YRa5K.png" alt="nmap" width="60%">
 <img src="https://i.imgur.com/E8dJoR6.png" alt="redis-info" width="60%">
-<img src="https://i.imgur.com/tmWdOG6.png" alt="getflag" width="60%">
+<img src="https://i.imgur.com/tmWdOG6.png" alt="getflag" width="40%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
