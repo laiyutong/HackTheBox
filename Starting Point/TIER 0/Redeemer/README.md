@@ -35,7 +35,7 @@ A：<code>-h</code>
 Q：Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis server?<br>
 A：<code>info</code><br>
 <pre class="text">
-<b>Redis-cli commonly used commands<b>
+<b>Redis-cli commonly used commands</b>
   
 String Commands:
 SET key value: Set the value for a key.
