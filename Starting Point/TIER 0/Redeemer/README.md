@@ -76,6 +76,7 @@ INFO: Get information and statistics about the Redis server.
 DBSIZE: Get the number of keys in the currently selected database.
 FLUSHDB: Delete all keys in the currently selected database.
 </pre>
+<img src="https://i.imgur.com/E8dJoR6.png" alt="redis-info" width="60%">
 
 <h3>TASK 7</h3>
 Q：What is the version of the Redis server being used on the target machine?<br>
@@ -96,7 +97,7 @@ A：<code>keys *</code>
 
 <h2>SUBMIT FLAG</h2>
 <img src="https://i.imgur.com/B3YRa5K.png" alt="nmap" width="60%">
-<img src="" alt="" width="60%">
+<img src="https://i.imgur.com/E8dJoR6.png" alt="redis-info" width="60%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
