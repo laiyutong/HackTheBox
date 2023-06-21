@@ -105,6 +105,9 @@ Entering <code>info</code> to get information and statistics about the Redis ser
 <img src="https://i.imgur.com/E8dJoR6.png" alt="redis-info" width="60%">
 In Redis, the term <code>keyspace</code> refers to the logical division of the keys in a Redis database.br>
 It represents the collection of all the keys and their associated data stored in Redis.<br>
+The SELECT command in redis-cli allows you to switch to a different database by specifying the database index as an argument.<br>
+The syntax of the SELECT command is as follows:<br>
+<code>SELECT index</code><br>
 <img src="https://i.imgur.com/tmWdOG6.png" alt="getflag" width="40%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
