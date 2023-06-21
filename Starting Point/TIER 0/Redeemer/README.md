@@ -33,7 +33,48 @@ A：<code>-h</code>
 
 <h3>TASK 6</h3>
 Q：Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis server?<br>
-A：<code>info</code>
+A：<code>info</code><br>
+<pre class="text">
+String Commands:
+
+SET key value: Set the value for a key.
+GET key: Get the value of a key.
+DEL key: Delete one or more keys.
+INCR key: Increment the integer value of a key by one.
+EXPIRE key seconds: Set a key's time to live in seconds.
+Hash Commands:
+
+HSET key field value: Set the value of a field in a hash.
+HGET key field: Get the value of a field in a hash.
+HGETALL key: Get all the fields and values in a hash.
+HDEL key field [field ...]: Delete one or more fields from a hash.
+HKEYS key: Get all the field names in a hash.
+List Commands:
+
+LPUSH key value [value ...]: Prepend one or multiple values to a list.
+RPUSH key value [value ...]: Append one or multiple values to a list.
+LPOP key: Remove and get the first element in a list.
+RPOP key: Remove and get the last element in a list.
+LRANGE key start stop: Get a range of elements from a list.
+Set Commands:
+
+SADD key member [member ...]: Add one or more members to a set.
+SMEMBERS key: Get all the members of a set.
+SREM key member [member ...]: Remove one or more members from a set.
+SISMEMBER key member: Check if a member exists in a set.
+Sorted Set Commands:
+
+ZADD key score member [score member ...]: Add one or more members to a sorted set with scores.
+ZRANGE key start stop [WITHSCORES]: Get a range of members from a sorted set.
+ZREM key member [member ...]: Remove one or more members from a sorted set.
+ZSCORE key member: Get the score of a member in a sorted set.
+Miscellaneous Commands:
+
+PING: Ping the Redis server.
+INFO: Get information and statistics about the Redis server.
+DBSIZE: Get the number of keys in the currently selected database.
+FLUSHDB: Delete all keys in the currently selected database.
+</pre>
 
 <h3>TASK 7</h3>
 Q：What is the version of the Redis server being used on the target machine?<br>
