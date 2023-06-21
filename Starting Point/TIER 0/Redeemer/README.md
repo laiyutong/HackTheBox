@@ -110,4 +110,5 @@ The SELECT command in redis-cli allows you to switch to a different database by 
 The KEYS command in redis-cli is used to retrieve all the keys matching a specific pattern within the current keyspace. For example, if you run the following command in redis-cli:<code>KEYS *</code><br><br>
 <img src="https://i.imgur.com/tmWdOG6.png" alt="getflag" width="40%">
 <img src="" alt="" width="60%">
+You can get flag by using <code>get flag</code>！
 <img src="" alt="" width="60%">
