@@ -85,7 +85,7 @@ A：<code>5.0.7</code>
 <h3>TASK 8</h3>
 Q：Which command is used to select the desired database in Redis?<br>
 A：<code>select</code><br>
-<img src="https://i.imgur.com/8BSVFgV.png" alt="key*" width="60%">
+<img src="https://i.imgur.com/8BSVFgV.png" alt="key*" width="40%">
 
 <h3>TASK 9</h3>
 Q：How many keys are present inside the database with index 0?<br>
@@ -94,7 +94,7 @@ A：<code>4</code>
 <h3>TASK 10</h3>
 Q：Which command is used to obtain all the keys in a database?<br>
 A：<code>keys *</code><br>
-<img src="https://i.imgur.com/8BSVFgV.png" alt="key*" width="60%">
+<img src="https://i.imgur.com/8BSVFgV.png" alt="key*" width="40%">
 
 
 <h2>SUBMIT FLAG</h2>
