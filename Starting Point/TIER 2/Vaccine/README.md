@@ -53,7 +53,8 @@ FYI：<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CookiesUsing">H
 <img src="https://i.imgur.com/u6CvI2J.png" alt="zip2john" width="60%"><br>
 <code>john --show backup.txt</code><br>
 <img src="https://i.imgur.com/kHui7GU.png" alt="john" width="60%"><br>
-<img src="" alt="" width="60%"><br>
+<code>cat backup.txt </code><br>
+<img src="https://i.imgur.com/oNnGAjw.png" alt="cat" width="60%"><br>
 <img src="" alt="" width="60%"><br>
 <img src="" alt="" width="60%"><br>
 <img src="" alt="" width="60%"><br>
