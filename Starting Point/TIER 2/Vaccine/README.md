@@ -59,7 +59,7 @@ FYI：<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CookiesUsing">H
 <code>cat index.php</code><br> 
 <img src="https://i.imgur.com/MzRF8MI.png" alt="cat" width="60%"><br>
 <code>hashid 2cb42f8734ea607eefed3b70af13bbd3</code><br> 
-<img src="https://i.imgur.com/SxVK6eW.png" alt="hashid" width="60%"><br>
+<img src="https://i.imgur.com/SxVK6eW.png" alt="hashid" width="40%"><br>
 <a href="https://www.md5online.org/md5-decrypt.html">MD5 Decryption Online Tool</a><br>
 <img src="" alt="" width="60%"><br>
 <img src="" alt="" width="60%"><br>
