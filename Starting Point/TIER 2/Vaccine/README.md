@@ -61,15 +61,12 @@ FYI：<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CookiesUsing">H
 <img src="https://i.imgur.com/MzRF8MI.png" alt="cat" width="60%"><br>
 <code>hashid 2cb42f8734ea607eefed3b70af13bbd3</code><br> 
 <img src="https://i.imgur.com/SxVK6eW.png" alt="hashid" width="60%"><br>
+<code>hashcat -a 0 -m 0 hash /usr/share/wordlists/rockyou.txt</code><br> 
 <pre class="text">
 <b>hashcat</b>: This is the command to invoke the Hashcat tool.
-
 <b>-a 0</b>: This option specifies the attack mode for Hashcat. In this case, the value 0 corresponds to the "straight" or "dictionary" attack mode. In a dictionary attack, Hashcat will use a wordlist (in this case, the rockyou.txt wordlist) to try different combinations of words as potential passwords.
-
 <b>-m 0</b>: This option specifies the hash type that Hashcat should be targeting. In this case, the value 0 corresponds to MD5 hashing. You can use different numbers to target different hash types. For example, -m 1000 would target NTLM hash, -m 1800 for SHA-512, etc.
-
 <b>hash</b>: This is the file containing the hashed password that you want to crack. Replace hash with the path to the file containing the hash you want to crack.
-
 <b>/usr/share/wordlists/rockyou.txt</b>: This is the path to the wordlist that Hashcat will use for the dictionary attack. In this case, it's using the rockyou.txt wordlist, which is a popular wordlist that comes pre-installed in many security-related tools and Kali Linux itself. The rockyou.txt wordlist contains a large number of common passwords and is often used for testing and educational purposes.
 </pre>
 <img src="" alt="" width="60%"><br>
