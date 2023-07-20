@@ -57,7 +57,8 @@ FYI：<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CookiesUsing">H
 <img src="https://i.imgur.com/kHui7GU.png" alt="john" width="60%"><br>
 <code>unzip backup.zip</code><br> 
 <img src="https://i.imgur.com/PjRAudx.png" alt="unzip" width="60%"><br>
-<img src="" alt="" width="60%"><br>
+<code>cat index.php </code><br> 
+<img src="https://i.imgur.com/MzRF8MI.png" alt="cat" width="60%"><br>
 <img src="" alt="" width="60%"><br>
 <img src="" alt="" width="60%"><br>
 <img src="" alt="" width="60%"><br>
