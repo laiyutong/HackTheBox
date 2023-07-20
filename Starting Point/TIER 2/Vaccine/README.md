@@ -44,7 +44,7 @@ FYI：<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CookiesUsing">H
 
 <code>nmap -sV target_IP</code>
 <img src="https://i.imgur.com/VU1AWld.png" alt="nmap" width="60%">
-<img src="" alt="" width="60%">
+<img src="https://i.imgur.com/e4No62m.png" alt="80port" width="60%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
 <img src="" alt="" width="60%">
