@@ -45,9 +45,13 @@ FYI：<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CookiesUsing">H
 <code>nmap -sV target_IP</code><br>
 <img src="https://i.imgur.com/VU1AWld.png" alt="nmap" width="60%"><br>
 <img src="https://i.imgur.com/e4No62m.png" alt="80port" width="60%"><br>
+<code>ftp target_IP</code><br>
 <img src="https://i.imgur.com/pJHUB1x.png" alt="ftp" width="60%"><br>
+<code>unzip backup.zip</code><br> 
 <img src="https://i.imgur.com/AZmHnqk.png" alt="unzip" width="60%"><br>
-<img src="" alt="" width="60%"><br>
+<code>zip2john backup.zip > backup.txt</code><br>
+<img src="https://i.imgur.com/u6CvI2J.png" alt="zip2john" width="60%"><br>
+<code>john --show backup.txt</code><br>
 <img src="" alt="" width="60%"><br>
 <img src="" alt="" width="60%"><br>
 <img src="" alt="" width="60%"><br>
